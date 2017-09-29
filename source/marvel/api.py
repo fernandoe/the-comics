@@ -22,9 +22,7 @@ class MarvelAPI:
         }
         url = '%s%s' % (self.base_endpoint, endpoint)
         r = requests.get(url, params)
-        print(r.status_code)
-        print(json.loads(r.text))
-        return r
+        return json.loads(r.text)['data']['results']
 
     def characters(self, identifier=None):
         if identifier:
