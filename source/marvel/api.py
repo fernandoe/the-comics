@@ -1,13 +1,16 @@
-import time
 import hashlib
-import requests
 import json
+import os
+import time
+
+import requests
 
 
 class MarvelAPI:
     base_endpoint = 'https://gateway.marvel.com'
-    public_key = 'XXX'
-    private_key = 'XXX'
+
+    public_key = os.environ.get('MARVEL_PUBLIC_KEY')
+    private_key = os.environ.get('MARVEL_PRIVATE_KEY')
 
     def _dorequest(self, endpoint):
         ts = str(int(time.time()))
@@ -23,8 +26,11 @@ class MarvelAPI:
         print(json.loads(r.text))
         return r
 
-    def characters(self):
-        return self._dorequest('/v1/public/characters')
+    def characters(self, identifier=None):
+        if identifier:
+            return self._dorequest('/v1/public/characters/{identifier}'.format(identifier=identifier))
+        else:
+            return self._dorequest('/v1/public/characters')
 
     def comics(self):
         return self._dorequest('/v1/public/comics')
