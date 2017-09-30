@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from marvel.api import MarvelAPIIterable
+from marvel.api import MarvelAPIIterable, Counter
 
 
 class TestMarvelAPIIterable(TestCase):
@@ -11,5 +11,8 @@ class TestMarvelAPIIterable(TestCase):
         #     print(i)
         # print('Done')
 
-        for char in MarvelAPIIterable():
-            print(char)
+        # for char in MarvelAPIIterable(['1', '2']):
+        #     print(char)
+
+        for i in Counter(5, 10):
+            print(i)

@@ -7,6 +7,9 @@ import requests
 import logging
 
 log = logging.getLogger('marvel')
+base_endpoint = 'https://gateway.marvel.com'
+public_key = os.environ.get('MARVEL_PUBLIC_KEY')
+private_key = os.environ.get('MARVEL_PRIVATE_KEY')
 
 
 #
@@ -36,23 +39,81 @@ log = logging.getLogger('marvel')
 #         return json.loads(r.text)['data']['results']
 #
 #
-# class MarvelAPIIterable(object):
-#     def __init__(self, values):
-#         # log.debug('__init__')
-#         self.values = values
-#         self.location = 0
-#
-#     def __iter__(self):
-#         log.debug('__iter__')
-#         return self
-#
-#     def next(self):
-#         log.debug('next')
-#         if self.location == len(self.values):
-#             raise StopIteration
-#         value = self.values[self.location]
-#         self.location += 1
-#         return value
+
+class Counter(object):
+    def __init__(self, low, high):
+        self.current = low
+        self.high = high
+
+        self.items = None
+        self.total = 0
+        self.current = 0
+        self.page_size = 300
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        # if self.current > self.high:
+        #     raise StopIteration
+        # else:
+        #     self.current += 1
+        #     return self.current - 1
+
+        result = []
+        if self.items is None:
+            print('requesting')
+            ts = str(int(time.time()))
+            api_hash = hashlib.md5((ts + private_key + public_key).encode('utf-8')).hexdigest()
+            params = {
+                'ts': ts,
+                'apikey': public_key,
+                'hash': api_hash
+            }
+            url = '%s%s' % (base_endpoint, '/v1/public/characters')
+            r = json.loads(requests.get(url, params).text)
+            self.total = r['data']['total']
+            self.items = r['data']['results']
+        return self.items.pop()
+
+
+
+class MarvelAPIIterable(object):
+    def __init__(self, values):
+        # log.debug('__init__')
+        self.values = values
+        self.location = 0
+
+        self.items = None
+
+    def __iter__(self):
+        log.debug('__iter__')
+        return self
+
+    def next(self):
+        log.debug('next')
+        if self.location == len(self.values):
+            raise StopIteration
+        value = self.values[self.location]
+        self.location += 1
+        return value
+
+
+        # result = []
+        # if self.items is None:
+        #     ts = str(int(time.time()))
+        #     api_hash = hashlib.md5((ts + private_key + public_key).encode('utf-8')).hexdigest()
+        #     params = {
+        #         'ts': ts,
+        #         'apikey': public_key,
+        #         'hash': api_hash
+        #     }
+        #     url = '%s%s' % (base_endpoint, '/v1/public/characters')
+        #     r = requests.get(url, params)
+        #     result.extend(json.loads(r.text)['data']['results'])
+        # return 't'
+
+
 #
 # class MarvelAPIIterable:
 #     """Iterator for looping over a sequence backwards."""
