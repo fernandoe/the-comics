@@ -13,20 +13,24 @@ private_key = os.environ.get('MARVEL_PRIVATE_KEY')
 
 
 class MarvelRequest(object):
-
     def characters(self, page=1):
         r = self.get('/v1/public/characters', page)
         return json.loads(r.text)['data']['results']
 
+    def stories_by_character(self, identifier, page=1):
+        r = self.get('/v1/public/characters/{identifier}/stories'.format(identifier=identifier), page)
+        return json.loads(r.text)['data']['results']
+
     def get(self, endpoint, page, page_size=100):
-        print("Requesting content - endpoint: {endpoint}, page: {page}, page_size: {page_size}".format(endpoint=endpoint, page=page, page_size=page_size))
+        print("Requesting content - endpoint: {endpoint}, page: {page}, page_size: {page_size}".format(
+            endpoint=endpoint, page=page, page_size=page_size))
         ts = str(int(time.time()))
         api_hash = hashlib.md5((ts + private_key + public_key).encode('utf-8')).hexdigest()
         params = {
             'ts': ts,
             'apikey': public_key,
             'hash': api_hash,
-            'offset': (page-1) * page_size,
+            'offset': (page - 1) * page_size,
             'limit': page_size
         }
         url = '%s%s' % (base_endpoint, endpoint)
