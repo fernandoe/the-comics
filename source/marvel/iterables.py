@@ -30,7 +30,7 @@ class StoriesByCharacterIterable(object):
         return self
 
     def __next__(self):
-        if self.current_page == 1:
+        if self.current_page == 5:
             raise StopIteration
         if not self.items:
             self.current_page = self.current_page + 1

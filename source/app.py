@@ -16,13 +16,16 @@ def get_random_comic_page():
         stories.append(s)
     story = random.choice(stories)
 
+    characters = story['characters']['items']
+
     data = {
         'name': result[0]['name'],
         'character_image': result[0]['thumbnail']['path'] + '/portrait_incredible.' + result[0]['thumbnail']['extension'],
-        'story': story
+        'story': story,
+        'characters': characters
     }
     print(data)
     return render_template('index.html', **data)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5001)
