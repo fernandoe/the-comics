@@ -19,6 +19,7 @@ class MarvelRequest(object):
         return json.loads(r.text)['data']['results']
 
     def get(self, endpoint, page, page_size=100):
+        print("Requesting content - endpoint: {endpoint}, page: {page}, page_size: {page_size}".format(endpoint=endpoint, page=page, page_size=page_size))
         ts = str(int(time.time()))
         api_hash = hashlib.md5((ts + private_key + public_key).encode('utf-8')).hexdigest()
         params = {
