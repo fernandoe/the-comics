@@ -18,23 +18,24 @@
 <body>
 
 <div class="container">
-    <div class="row">
-        <div class="col-xs-6">
+    <div class="row" style="background-color: #1b6d85">
+        <div class="col-xs-3" style="background-color: #2aabd2">
             <h1>{{ name }}</h1>
             <div><img src="{{character_image}}"></div>
         </div>
+
+        <div class="col-xs-9" style="background-color: #3c763d">
+            <h1>{{ comic['title'] }}</h1>
+            <div>{{ comic['description'] }}</div>
+
+
+            <div style="background-color: #66afe9">
+                kkdkdkd
+            </div>
+        </div>
     </div>
 
-    <div class="col-xs-6">
-        <h1>{{ story['title'] }}</h1>
-        <div>{{ story['description'] }}</div>
-    </div>
 </div>
-
-{% for c in characters %}
-    {{ c['name'] }}
-{% endfor %}
-
 
 <script src="static/jquery/3.2.1/jquery-3.2.1.min.js"></script>
 <script src="static/bootstrap/3.3.7/js/bootstrap.min.js"></script>

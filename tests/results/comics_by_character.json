@@ -1,0 +1,3039 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2017 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2017 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2017 MARVEL</a>",
+  "etag": "fec24850b28dcb680b5b15d439715b107b9730f9",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 1393,
+    "count": 20,
+    "results": [
+      {
+        "id": 27649,
+        "digitalId": 0,
+        "title": "Incredible Hulks (2009) #604 (DJURDJEVIC 70TH ANNIVERSARY VARIANT)",
+        "issueNumber": 604,
+        "variantDescription": "DJURDJEVIC 70TH ANNIVERSARY VARIANT",
+        "description": "After picking fights with the Juggernaut, Norman Osborn, and the Wolverine clan, the most insane father and son team in the Marvel Universe might actually be bonding.  But everything's about to blow wide open for Bruce Banner and his big, green, barbarian son Skaar when one of the Hulk's greatest enemies brings back the most important villainess Bruce Banner's ever faced.  Who is the Harpy?  And whose side will Banner take when she and Skaar meet sword to claw in a gamma-powered deathmatch?  Stone might bleed, feathers might fly, and hearts might break in the highest stakes battle yet for Banner and Son! Plus, The Savage SHE-HULK continues her quest to find\r\nJennifer Walters in a back-up by Fred Van Lente and\r\nMichael Ryan!\r\nRated A ...$3.99",
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "5960606637-60421",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 40,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "After picking fights with the Juggernaut, Norman Osborn, and the Wolverine clan, the most insane father and son team in the Marvel Universe might actually be bonding.  But everything's about to blow wide open for Bruce Banner and his big, green, barbarian son Skaar when one of the Hulk's greatest enemies brings back the most important villainess Bruce Banner's ever faced.  Who is the Harpy?  And whose side will Banner take when she and Skaar meet sword to claw in a gamma-powered deathmatch?  Stone might bleed, feathers might fly, and hearts might break in the highest stakes battle yet for Banner and Son! Plus, The Savage SHE-HULK continues her quest to find\r\nJennifer Walters in a back-up by Fred Van Lente and\r\nMichael Ryan!\r\nRated A ...$3.99"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/27649",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/27649/incredible_hulks_2009_604_djurdjevic_70th_anniversary_variant/djurdjevic_70th_anniversary_variant?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/8842",
+          "name": "Incredible Hulks (2009 - 2011)"
+        },
+        "variants": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/27648",
+            "name": "Incredible Hulks (2009) #604"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2029-12-31T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2009-10-29T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/d0/4badb223f33c9",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/d0/4badb223f33c9",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/27649/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/10288",
+              "name": "Marko Djurdjevic",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1082",
+              "name": "Ariel Olivetti",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/434",
+              "name": "Michael Ryan",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/536",
+              "name": "Greg Pak",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/7894",
+              "name": "Fred Van Lente",
+              "role": "writer"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/27649/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/27649/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/60567",
+              "name": "Cover #60567",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/60568",
+              "name": "Interior #60568",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/27649/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 22253,
+        "digitalId": 0,
+        "title": "Hulk Custom Comic (2008) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": null,
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 0,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/22253",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/22253/hulk_custom_comic_2008_1?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/5865",
+          "name": "Hulk Custom Comic (2008)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2029-12-31T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/22253/creators",
+          "items": [],
+          "returned": 0
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/22253/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/22253/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/50568",
+              "name": "Cover #50568",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/50569",
+              "name": "Interior #50569",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/22253/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 183,
+        "digitalId": 0,
+        "title": "Startling Stories: The Incorrigible Hulk (2004) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "For Doctor Bruce Banner life is anything but normal. But what happens when two women get between him and his alter ego, the Incorrigible Hulk? Hulk confused! \r\nIndy superstar Peter Bagge (THE MEGALOMANIACAL SPIDER-MAN) takes a satirical jab at the Hulk mythos with a tale of dames, debauchery and destruction.\r\n32 PGS./MARVEL PSR...$2.99",
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "5960605429-00811",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 0,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "For Doctor Bruce Banner life is anything but normal. But what happens when two women get between him and his alter ego, the Incorrigible Hulk? Hulk confused! \r\nIndy superstar Peter Bagge (THE MEGALOMANIACAL SPIDER-MAN) takes a satirical jab at the Hulk mythos with a tale of dames, debauchery and destruction.\r\n32 PGS./MARVEL PSR...$2.99"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/183",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/183/startling_stories_the_incorrigible_hulk_2004_1?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/565",
+          "name": "Startling Stories: The Incorrigible Hulk (2004)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2029-12-31T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 2.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/183/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/6291",
+              "name": "Peter Bagge",
+              "role": "penciller (cover)"
+            }
+          ],
+          "returned": 1
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/183/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/183/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/1891",
+              "name": "Cover #1891",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/1892",
+              "name": "Interior #1892",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/183/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 64713,
+        "digitalId": 0,
+        "title": "Marvel's Thor: Ragnarok Prelude (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "The stage is set for 2017's far-out fantasy epic, Marvel Studios' Thor: Ragnarok! Catch up on the incredible events of Thor: The Dark World and learn where major players including Odin, Loki and Thor himself stand ahead of the next blockbuster chapter in Asgardian lore! And revisit the origin of Ragnarok's other headline star, the Incredible Hulk! Plus: Classic comic-book tales featuring the two mightiest Avengers of all! Thor enters the underworld to face Hela - and the Hulk does savage battle on an alien world! It's cinematic action in the Mighty Marvel Manner! Collects Marvel's Thor: Ragnarok Prelude #1-4, Thor (1966) #361, Incredible Hulk (2000) #95.",
+        "modified": "2017-09-27T18:21:05-0400",
+        "isbn": "978-0-7851-9460-6",
+        "upc": "",
+        "diamondCode": "JUN171061",
+        "ean": "9780785 194606 51599",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 136,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The stage is set for 2017's far-out fantasy epic, Marvel Studios' Thor: Ragnarok! Catch up on the incredible events of Thor: The Dark World and learn where major players including Odin, Loki and Thor himself stand ahead of the next blockbuster chapter in Asgardian lore! And revisit the origin of Ragnarok's other headline star, the Incredible Hulk! Plus: Classic comic-book tales featuring the two mightiest Avengers of all! Thor enters the underworld to face Hela - and the Hulk does savage battle on an alien world! It's cinematic action in the Mighty Marvel Manner! Collects Marvel's Thor: Ragnarok Prelude #1-4, Thor (1966) #361, Incredible Hulk (2000) #95."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/64713",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/64713/marvels_thor_ragnarok_prelude_trade_paperback?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23789",
+          "name": "Marvel's Thor: Ragnarok Prelude (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-10-04T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-07-31T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 15.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/c0/59cc2c9e94977",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/c0/59cc2c9e94977",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64713/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/537",
+              "name": "Carlo Pagulayan",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12516",
+              "name": "Walt Simonson",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/536",
+              "name": "Greg Pak",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12818",
+              "name": "Will Corona Pilgrim",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64713/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011076",
+              "name": "Grandmaster"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009407",
+              "name": "Loki"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009480",
+              "name": "Odin"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009664",
+              "name": "Thor"
+            }
+          ],
+          "returned": 5
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64713/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/140475",
+              "name": "cover from Marvel Universe Ultimate Spider-Man Comic Reader (2012) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/140476",
+              "name": "story from Marvel Universe Ultimate Spider-Man Comic Reader (2012) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64713/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 47655,
+        "digitalId": 0,
+        "title": "Thor Vs. Hulk (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "The God of Thunder takes on The Strongest One There Is as two Marvel Universe heavyweights clash! A rivalry for the ages begins shortly after Hulk quits the Avengers, with a test of strength between former teammates! Things escalate when the jade giant recruits powerful allies of his own, paving the way for Thor vs. Hulk to be the main event of an Avengers/Defenders War! Hammer meets fist again and again, including a journey to Hel and back, and blockbuster bouts between the Odinson and the Red Hulk! It's god against monster, in the Mightiest Marvel Manner of all! Collects Avengers (1963) #3, Sub-Mariner (1968) #35, Defenders (1972) #10, Incredible Hulk (1968) #255 and 440, Thor (1966) #385 and 489, Hulk (2008) #5-6, What If (1977) #45 and material from Journey Into Mystery (1952) #112, Incredible Hulk Annual 2001, Hulk (2008) #26.",
+        "modified": "2017-09-27T18:15:49-0400",
+        "isbn": "978-0-7851-8515-4",
+        "upc": "",
+        "diamondCode": "JUL171196",
+        "ean": "9780785 185154 52999",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 336,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The God of Thunder takes on The Strongest One There Is as two Marvel Universe heavyweights clash! A rivalry for the ages begins shortly after Hulk quits the Avengers, with a test of strength between former teammates! Things escalate when the jade giant recruits powerful allies of his own, paving the way for Thor vs. Hulk to be the main event of an Avengers/Defenders War! Hammer meets fist again and again, including a journey to Hel and back, and blockbuster bouts between the Odinson and the Red Hulk! It's god against monster, in the Mightiest Marvel Manner of all! Collects Avengers (1963) #3, Sub-Mariner (1968) #35, Defenders (1972) #10, Incredible Hulk (1968) #255 and 440, Thor (1966) #385 and 489, Hulk (2008) #5-6, What If (1977) #45 and material from Journey Into Mystery (1952) #112, Incredible Hulk Annual 2001, Hulk (2008) #26."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/47655",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/47655/thor_vs_hulk_trade_paperback?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17983",
+          "name": "Thor Vs. Hulk (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-10-04T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-08-14T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 29.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/20/59cc2c775ffe4",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/20/59cc2c775ffe4",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 11,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/47655/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/105",
+              "name": "Sal Buscema",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/104",
+              "name": "Steve Englehart",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/30",
+              "name": "Stan Lee",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1282",
+              "name": "Ralph Macchio",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/966",
+              "name": "Bill Mantlo",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2909",
+              "name": "Roy Thomas",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/196",
+              "name": "Jack Kirby",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/704",
+              "name": "Erik Larsen",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/372",
+              "name": "Angel Medina",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1066",
+              "name": "Tom Smith",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 11
+        },
+        "characters": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/47655/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011023",
+              "name": "Defenders"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011360",
+              "name": "Red Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010791",
+              "name": "Sub-Mariner"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009664",
+              "name": "Thor"
+            }
+          ],
+          "returned": 6
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/47655/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/107590",
+              "name": "cover from Thor Vs. Hulk (2014)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/107591",
+              "name": "story from Thor Vs. Hulk (2014)",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/47655/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 62262,
+        "digitalId": 0,
+        "title": "Wolverine: Old Man Logan Vol. 5 - Past Lives (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "A failure from the past haunts Logan - and to correct his mistakes, he'll need magical assistance! But when he faces opposition, the man who was once Wolverine will turn to an unlikely - and potentially treacherous - ally! Will an encounter with the young Spider-Man, Miles Morales, convince Logan to alter his path? Or will a time-torn trip through his past lives - from his youth in the 1800s to his first encounter with the Hulk and beyond - derail Logan's mission completely? One minute he's Patch, stalking the streets of Madripoor, and the next he's reliving his glory days in the X-Men. Spiraling through his own living memories, and forced to relive moments both poignant and painful, will Logan be tempted to try to put right what once went wrong? Collecting OLD MAN LOGAN (2016) #19-24.",
+        "modified": "2017-09-20T17:37:00-0400",
+        "isbn": "978-1-302-90574-3",
+        "upc": "",
+        "diamondCode": "JUL171218",
+        "ean": "9781302 905743 51799",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 136,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "A failure from the past haunts Logan - and to correct his mistakes, he'll need magical assistance! But when he faces opposition, the man who was once Wolverine will turn to an unlikely - and potentially treacherous - ally! Will an encounter with the young Spider-Man, Miles Morales, convince Logan to alter his path? Or will a time-torn trip through his past lives - from his youth in the 1800s to his first encounter with the Hulk and beyond - derail Logan's mission completely? One minute he's Patch, stalking the streets of Madripoor, and the next he's reliving his glory days in the X-Men. Spiraling through his own living memories, and forced to relive moments both poignant and painful, will Logan be tempted to try to put right what once went wrong? Collecting OLD MAN LOGAN (2016) #19-24."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/62262",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/62262/wolverine_old_man_logan_vol_5_-_past_lives_trade_paperback?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/22885",
+          "name": "Wolverine: Old Man Logan Vol. 5 - Past Lives (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-09-27T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-08-07T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 17.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/d0/59c2e2732005a",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/d0/59c2e2732005a",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/62262/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12471",
+              "name": "Filipe Andrade",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/10759",
+              "name": "Jeff Lemire",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12462",
+              "name": "Andrea Sorrentino",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/62262/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010777",
+              "name": "James Howlett"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010357",
+              "name": "Patch"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1016181",
+              "name": "Spider-Man (Miles Morales)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+              "name": "X-Men"
+            }
+          ],
+          "returned": 5
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/62262/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/134909",
+              "name": "cover from Wolverine: Old Man Logan (2018)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/134910",
+              "name": "story from Wolverine: Old Man Logan (2018)",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/62262/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 64769,
+        "digitalId": 0,
+        "title": "Indestructible Hulk by Mark Waid: The Complete Collection (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "Hulk: The strongest there is. Banner: The smartest man alive. Combined, they are indestructible! Good thing they're on S.H.I.E.L.D.'s side! Now working for the peacekeeping force, Hulk must take down the new Quintronic Man and battle Attuma on the ocean floor to learn the secret of lost Lemuria! But not everything is as it seems - what is Banner's secret hold over S.H.I.E.L.D. Director Maria Hill? And for those of you who like smashing, the Hulk battles Iron Man, Frost Giants and...the timestream?! Plus: The secret friendship of Bruce Banner and Matt Murdock! The secret past of Bruce Banner and Tony Stark! Dinosaurs, cowboys and the knights of Camelot! And the Hulk fights for the fate of the world! Even when he's indestructible, he's still incredible! COLLECTING: INDESTRUCTIBLE HULK #1-20, ANNUAL #1.",
+        "modified": "2017-09-20T16:52:06-0400",
+        "isbn": "978-1-302-90800-3",
+        "upc": "",
+        "diamondCode": "JUL171202",
+        "ean": "9781302 908003 53999",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 504,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "Hulk: The strongest there is. Banner: The smartest man alive. Combined, they are indestructible! Good thing they're on S.H.I.E.L.D.'s side! Now working for the peacekeeping force, Hulk must take down the new Quintronic Man and battle Attuma on the ocean floor to learn the secret of lost Lemuria! But not everything is as it seems - what is Banner's secret hold over S.H.I.E.L.D. Director Maria Hill? And for those of you who like smashing, the Hulk battles Iron Man, Frost Giants and...the timestream?! Plus: The secret friendship of Bruce Banner and Matt Murdock! The secret past of Bruce Banner and Tony Stark! Dinosaurs, cowboys and the knights of Camelot! And the Hulk fights for the fate of the world! Even when he's indestructible, he's still incredible! COLLECTING: INDESTRUCTIBLE HULK #1-20, ANNUAL #1."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/64769",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/64769/indestructible_hulk_by_mark_waid_the_complete_collection_trade_paperback?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23595",
+          "name": "Indestructible Hulk by Mark Waid: The Complete Collection (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-09-27T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-08-07T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 39.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/70/59c2e1c186eea",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/70/59c2e1c186eea",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 7,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64769/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12902",
+              "name": "KIM JACINTO",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/10317",
+              "name": "MATTEO SCALERA",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12516",
+              "name": "Walt Simonson",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/758",
+              "name": "Leinil Francis Yu",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/824",
+              "name": "Jeff Parker",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/119",
+              "name": "Mark Waid",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 7
+        },
+        "characters": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64769/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+              "name": "Daredevil"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+              "name": "Iron Man"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011335",
+              "name": "Maria Hill"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009552",
+              "name": "S.H.I.E.L.D."
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009664",
+              "name": "Thor"
+            }
+          ],
+          "returned": 6
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64769/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/140587",
+              "name": "cover from INDESTRUCTIBLE HULK BY MARK WAID: THE COMPLETE COLLECTION TPB (2017) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/140588",
+              "name": "story from INDESTRUCTIBLE HULK BY MARK WAID: THE COMPLETE COLLECTION TPB (2017) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64769/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 64560,
+        "digitalId": 0,
+        "title": "Daredevil Epic Collection: Heart of Darkness (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "All hell breaks loose! Things really get heated as Daredevil is caught between the diabolical Mephisto and his monstrous son Blackheart! The Man Without Fear and his friends will be forced to face their demons like never before! Are they fated to burn for eternity in the fiery underworld, or can they find their way back home? And what role will the Silver Surfer play? As Atlantis Attacks, Daredevil must face - Spider-Man! And DD, the Surfer, Punisher and the Hulk will be stalked by Lifeform! Meanwhile, Acts of Vengeance puts Daredevil well out of his weight class in a battle against Ultron! Good thing Karnak and Gorgon of the Inhumans are around to lend a hand (and cloven hoof)! Collecting DAREDEVIL (1964) #271-282 and ANNUAL #5-6, and material from PUNISHER ANNUAL #3, INCREDIBLE HULK ANNUAL #16 and SILVER SURFER ANNUAL #3.",
+        "modified": "2017-09-13T16:41:11-0400",
+        "isbn": "978-1-302-90791-4",
+        "upc": "",
+        "diamondCode": "JUN171067",
+        "ean": "9781302 907914 53999",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 488,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "All hell breaks loose! Things really get heated as Daredevil is caught between the diabolical Mephisto and his monstrous son Blackheart! The Man Without Fear and his friends will be forced to face their demons like never before! Are they fated to burn for eternity in the fiery underworld, or can they find their way back home? And what role will the Silver Surfer play? As Atlantis Attacks, Daredevil must face - Spider-Man! And DD, the Surfer, Punisher and the Hulk will be stalked by Lifeform! Meanwhile, Acts of Vengeance puts Daredevil well out of his weight class in a battle against Ultron! Good thing Karnak and Gorgon of the Inhumans are around to lend a hand (and cloven hoof)! Collecting DAREDEVIL (1964) #271-282 and ANNUAL #5-6, and material from PUNISHER ANNUAL #3, INCREDIBLE HULK ANNUAL #16 and SILVER SURFER ANNUAL #3."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/64560",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/64560/daredevil_epic_collection_heart_of_darkness_trade_paperback?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23523",
+          "name": "Daredevil Epic Collection: Heart of Darkness (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-09-20T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-07-31T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 39.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/a0/59b9a13b8da8d",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/a0/59b9a13b8da8d",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 11,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64560/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/87",
+              "name": "Mark Bagley",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/7668",
+              "name": "CAM KENNEDY",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1252",
+              "name": "Rick Leonardi",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/214",
+              "name": "John Romita JR.",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5178",
+              "name": "Mike Baron",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/954",
+              "name": "Gerry Conway",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/215",
+              "name": "Ann Nocenti",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5237",
+              "name": "Gregory Wright",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/10581",
+              "name": "Vero Gandini",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8381",
+              "name": "Digikore Studios Ltd.",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 11
+        },
+        "characters": {
+          "available": 10,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64560/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009190",
+              "name": "Blackheart"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+              "name": "Daredevil"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009324",
+              "name": "Gorgon"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009385",
+              "name": "Karnak"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009440",
+              "name": "Mephisto"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009466",
+              "name": "Namor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009515",
+              "name": "Punisher"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009592",
+              "name": "Silver Surfer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009685",
+              "name": "Ultron"
+            }
+          ],
+          "returned": 10
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64560/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/140131",
+              "name": "cover from DAREDEVIL EPIC COLLECTION: HEART OF DARKNESS TPB (2017) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/140132",
+              "name": "story from DAREDEVIL EPIC COLLECTION: HEART OF DARKNESS TPB (2017) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64560/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 64564,
+        "digitalId": 0,
+        "title": "Zombies Assemble 2 (2017) #2",
+        "issueNumber": 2,
+        "variantDescription": "",
+        "description": "Spoiler alert: No one is immune to the zombie virus - not even the Hulk! The Avengers face off against their strongest teammates while the race to find a cure continues. As the virus spreads across New York and among the Avengers, new information comes to light about Dr. Toshiko Amano, Jasper Scott and the interstellar origins of the zombie plague. Is it too late to stop it from spreading further? Printed in black-and-white in the original right-to-left reading orientation.",
+        "modified": "2017-09-06T17:01:49-0400",
+        "isbn": "",
+        "upc": "759606087281000211",
+        "diamondCode": "JUL171120",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 48,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "Spoiler alert: No one is immune to the zombie virus - not even the Hulk! The Avengers face off against their strongest teammates while the race to find a cure continues. As the virus spreads across New York and among the Avengers, new information comes to light about Dr. Toshiko Amano, Jasper Scott and the interstellar origins of the zombie plague. Is it too late to stop it from spreading further? Printed in black-and-white in the original right-to-left reading orientation."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/64564",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/64564/zombies_assemble_2_2017_2?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23388",
+          "name": "Zombies Assemble 2 (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-09-13T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-08-21T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 4.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/f0/59b04f91cf6c8",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/f0/59b04f91cf6c8",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64564/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13142",
+              "name": "Yusaku Komiyama",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12390",
+              "name": "Jim Zub",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13189",
+              "name": "Kiichi Mizushima",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64564/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009338",
+              "name": "Hawkeye"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011002",
+              "name": "Marvel Zombies"
+            }
+          ],
+          "returned": 4
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64564/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/140139",
+              "name": "cover from Zombies Assemble 2 (2017) #2",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/140140",
+              "name": "story from Zombies Assemble 2 (2017) #2",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64564/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 64399,
+        "digitalId": 0,
+        "title": "Hulk: Planet Hulk Omnibus (Hardcover)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "The strongest one there is, in his most savage story ever! After a brutal battle between the Hulk and the Fantastic Four, Earth's greatest heroes decide that for the good of all - they must shoot the Hulk into space! But when he lands on the savage world of Sakaar, an epic for the ages begins. This one has it all: Strange alien planet! Oppressed barbarian tribes! Corrupt emperor! Deadly woman warrior! Gladiators and slaves! Battle-axes and hand blasters! Monsters and champions...and the Incredible Hulk! Let the smashing commence! Plus an alternate \"What If?\" take, a guidebook to Sakaar and the Totally Awesome debut of Amadeus Cho! COLLECTING: FANTASTIC FOUR (1998) #533-535, INCREDIBLE HULK (2000) #88-105, GIANT-SIZE HULK (2006) #1, WHAT IF? PLANET HULK, PLANET HULK: GLADIATOR GUIDEBOOK, MATERIAL FROM NEW AVENGERS: ILLUMINATI (2006), AMAZING FANTASY (2004) #15.",
+        "modified": "2017-08-25T10:34:59-0400",
+        "isbn": "978-1-302-90769-3",
+        "upc": "",
+        "diamondCode": "MAR171138",
+        "ean": "9781302 907693 59999",
+        "issn": "",
+        "format": "Hardcover",
+        "pageCount": 656,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The strongest one there is, in his most savage story ever! After a brutal battle between the Hulk and the Fantastic Four, Earth's greatest heroes decide that for the good of all - they must shoot the Hulk into space! But when he lands on the savage world of Sakaar, an epic for the ages begins. This one has it all: Strange alien planet! Oppressed barbarian tribes! Corrupt emperor! Deadly woman warrior! Gladiators and slaves! Battle-axes and hand blasters! Monsters and champions...and the Incredible Hulk! Let the smashing commence! Plus an alternate \"What If?\" take, a guidebook to Sakaar and the Totally Awesome debut of Amadeus Cho! COLLECTING: FANTASTIC FOUR (1998) #533-535, INCREDIBLE HULK (2000) #88-105, GIANT-SIZE HULK (2006) #1, WHAT IF? PLANET HULK, PLANET HULK: GLADIATOR GUIDEBOOK, MATERIAL FROM NEW AVENGERS: ILLUMINATI (2006), AMAZING FANTASY (2004) #15."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/64399",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/64399/hulk_planet_hulk_omnibus_hardcover?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23453",
+          "name": "Hulk: Planet Hulk Omnibus (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-09-06T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-05-08T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 100
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/d0/59a048c760e9c",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/d0/59a048c760e9c",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 34,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64399/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12396",
+              "name": "Michael Allred",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/420",
+              "name": "Sandu Florea",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/538",
+              "name": "Jeffrey Huet",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/647",
+              "name": "Kris Justice",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/820",
+              "name": "Leonard Kirk",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/485",
+              "name": "Andy Lanning",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1382",
+              "name": "Gary Martin",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/495",
+              "name": "Takeshi Miyazawa",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12982",
+              "name": "Vc Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/533",
+              "name": "Keu Cha",
+              "role": "penciler"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/308",
+              "name": "Gary Frank",
+              "role": "penciler"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12706",
+              "name": "Fred Hembeck",
+              "role": "penciler"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/540",
+              "name": "Aaron Lopresti",
+              "role": "penciler"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/638",
+              "name": "Edgar Clement",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12239",
+              "name": "Guru Efx",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/426",
+              "name": "Jason Keith",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1111",
+              "name": "Lovern Kindzierski",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4306",
+              "name": "Laura Martin",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/479",
+              "name": "Paul Mounts",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/121",
+              "name": "Peter David",
+              "role": "writer"
+            }
+          ],
+          "returned": 20
+        },
+        "characters": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64399/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011227",
+              "name": "Amadeus Cho"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 2
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64399/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/139784",
+              "name": "cover from HULK: PLANET HULK OMNIBUS HC (2017) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/139785",
+              "name": "story from HULK: PLANET HULK OMNIBUS HC (2017) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64399/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 64449,
+        "digitalId": 0,
+        "title": "Thor & Hulk (Digest)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "The two most powerful Avengers star in mighty incredible adventures! When the Cobra strikes, Loki seizes the opportunity to meddle in the lives of Thor and Jane Foster! But the Thunder God has even bigger problems to deal with - we're talking Frost Giant and gigantic demon big! Hulk doesn't have it easy either, when he's summoned to fight in an alien arena - against the cosmic powerhouse known as the Champion of the Universe! And back on Earth, he'll face the horrific nightmare that is Earth's Mightiest Mummies (including a certain bandaged-up Asgardian)! But when Thor and Hulk clash, the fireworks really start - as shown in a classic Marvel Masterwork by Stan Lee and Jack Kirby! Collecting MARVEL ADVENTURES SUPER HEROES (2008) #7 and #11, MARVEL ADVENTURES HULK #12-13 and material from JOURNEY INTO MYSTERY (1952) #112.",
+        "modified": "2017-08-25T11:49:04-0400",
+        "isbn": "978-1-302-90932-1",
+        "upc": "",
+        "diamondCode": "JUN171063",
+        "ean": "9781302 909321 50999",
+        "issn": "",
+        "format": "Digest",
+        "pageCount": 112,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The two most powerful Avengers star in mighty incredible adventures! When the Cobra strikes, Loki seizes the opportunity to meddle in the lives of Thor and Jane Foster! But the Thunder God has even bigger problems to deal with - we're talking Frost Giant and gigantic demon big! Hulk doesn't have it easy either, when he's summoned to fight in an alien arena - against the cosmic powerhouse known as the Champion of the Universe! And back on Earth, he'll face the horrific nightmare that is Earth's Mightiest Mummies (including a certain bandaged-up Asgardian)! But when Thor and Hulk clash, the fireworks really start - as shown in a classic Marvel Masterwork by Stan Lee and Jack Kirby! Collecting MARVEL ADVENTURES SUPER HEROES (2008) #7 and #11, MARVEL ADVENTURES HULK #12-13 and material from JOURNEY INTO MYSTERY (1952) #112."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/64449",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/64449/thor_hulk_digest?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23467",
+          "name": "Thor & Hulk (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-09-06T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-07-17T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 9.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/a0/59a048de34644",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/a0/59a048de34644",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 11,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64449/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5021",
+              "name": "Paul Benjamin",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/121",
+              "name": "Peter David",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/30",
+              "name": "Stan Lee",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/184",
+              "name": "Louise Simonson",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5015",
+              "name": "Rodney Buchemi",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8811",
+              "name": "Jon Buran",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/196",
+              "name": "Jack Kirby",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4071",
+              "name": "Juan Santacruz",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4550",
+              "name": "Steve Scott",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8991",
+              "name": "Lee Weeks",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 11
+        },
+        "characters": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64449/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009407",
+              "name": "Loki"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009664",
+              "name": "Thor"
+            }
+          ],
+          "returned": 4
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64449/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/139884",
+              "name": "cover from THOR & HULK DIGEST (2017) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/139885",
+              "name": "story from THOR & HULK DIGEST (2017) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64449/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 60624,
+        "digitalId": 0,
+        "title": "Defenders Epic Collection: Ashes, Ashes… (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "The Defenders face threats Satanic, Seussian and everything in between! Marvel's greatest non-team will take you on adventures made with their own special brand of action and interpersonal drama, topped by a heaping helping of the absurd! In this Epic Collection, the Defenders battle the cosmic Over-Mind, the alternate-Earth Squadron Supreme, the fan-favorite Elf with a Gun, the Avengers and even themselves! Patsy Walker's relationship with Daimon Hellstrom - the Son of Satan - will flower, while classic Defenders - Hulk, Namor, and the Silver Surfer - will return! Out of it all, the New Defenders -featuring Iceman, Angel, Beast, and Moondragon - will rise, and nothing will be the same. Same as it ever was! Collects Defenders (1972) #110-125, Avengers Annual (1967) #11.",
+        "modified": "2017-08-23T14:46:06-0400",
+        "isbn": "978-1-302-90428-9",
+        "upc": "",
+        "diamondCode": "MAY170984",
+        "ean": "9781302 904289 53999",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 440,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The Defenders face threats Satanic, Seussian and everything in between! Marvel's greatest non-team will take you on adventures made with their own special brand of action and interpersonal drama, topped by a heaping helping of the absurd! In this Epic Collection, the Defenders battle the cosmic Over-Mind, the alternate-Earth Squadron Supreme, the fan-favorite Elf with a Gun, the Avengers and even themselves! Patsy Walker's relationship with Daimon Hellstrom - the Son of Satan - will flower, while classic Defenders - Hulk, Namor, and the Silver Surfer - will return! Out of it all, the New Defenders -featuring Iceman, Angel, Beast, and Moondragon - will rise, and nothing will be the same. Same as it ever was! Collects Defenders (1972) #110-125, Avengers Annual (1967) #11."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/60624",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/60624/defenders_epic_collection_ashes_ashes_trade_paperback?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/22406",
+          "name": "Defenders Epic Collection: Ashes, Ashes… (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-08-30T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-07-10T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 39.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/40/599ddb98e17b2",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/40/599ddb98e17b2",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/60624/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/105",
+              "name": "Sal Buscema",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/6986",
+              "name": "J. M. DeMatteis",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1361",
+              "name": "Tom Mullin",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/442",
+              "name": "Dean White",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 13,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/60624/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009153",
+              "name": "Angel (Warren Worthington III)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009175",
+              "name": "Beast"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010719",
+              "name": "Daimon Hellstrom"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011023",
+              "name": "Defenders"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009282",
+              "name": "Doctor Strange"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010351",
+              "name": "Hellcat (Patsy Walker)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009451",
+              "name": "Moondragon"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009466",
+              "name": "Namor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009562",
+              "name": "Scarlet Witch"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009592",
+              "name": "Silver Surfer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009697",
+              "name": "Vision"
+            }
+          ],
+          "returned": 13
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/60624/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/131717",
+              "name": "cover from Defenders Epic Collection: Ashes, Ashes… (2017)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/131718",
+              "name": "story from Defenders Epic Collection: Ashes, Ashes… (2017)",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/60624/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 64175,
+        "digitalId": 0,
+        "title": "True Believers: Kirby 100th - Thor Vs. Hulk (2017) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "Celebrating 100 Years of Jack Kirby! Reprinting Journey into Mystery (1952) #112.",
+        "modified": "2017-08-04T18:15:22-0400",
+        "isbn": "",
+        "upc": "75960608797600111",
+        "diamondCode": "JUN171031",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "Celebrating 100 Years of Jack Kirby! Reprinting Journey into Mystery (1952) #112."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/64175",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/64175/true_believers_kirby_100th_-_thor_vs_hulk_2017_1?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23393",
+          "name": "True Believers: Kirby 100th - Thor Vs. Hulk (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-08-09T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-07-17T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 1
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/70/5977973307fdc",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/70/5977973307fdc",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64175/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/196",
+              "name": "Jack Kirby",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/30",
+              "name": "Stan Lee",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64175/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009664",
+              "name": "Thor"
+            }
+          ],
+          "returned": 2
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64175/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/139322",
+              "name": "cover from True Believers: Kirby 100th - Thor Vs. Hulk (2017) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/139323",
+              "name": "story from True Believers: Kirby 100th - Thor Vs. Hulk (2017) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64175/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 64291,
+        "digitalId": 0,
+        "title": "Zombies Assemble 2 (2017) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "The Avengers face a threat even bigger and more menacing than they could have imagined as the desperate race to cure the zombie outbreak shifts into high gear! Caught in a massive explosion, Captain America, Hawkeye and Iron Man wake up in the midst of a city overrun by zombies. Miraculously, they haven't been turned, and they find themselves face-to-face with a mysterious scientist who claims to have a cure for the virus. But who is he really, and does he actually possess the antivirus that Bruce Banner has been struggling to create? More importantly: Is the Hulk immune to the zombie plague?",
+        "modified": "2017-08-04T18:22:34-0400",
+        "isbn": "",
+        "upc": "759606087281000111",
+        "diamondCode": "JUN170909",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 40,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The Avengers face a threat even bigger and more menacing than they could have imagined as the desperate race to cure the zombie outbreak shifts into high gear! Caught in a massive explosion, Captain America, Hawkeye and Iron Man wake up in the midst of a city overrun by zombies. Miraculously, they haven't been turned, and they find themselves face-to-face with a mysterious scientist who claims to have a cure for the virus. But who is he really, and does he actually possess the antivirus that Bruce Banner has been struggling to create? More importantly: Is the Hulk immune to the zombie plague?"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/64291",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/64291/zombies_assemble_2_2017_1?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23388",
+          "name": "Zombies Assemble 2 (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-08-09T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-07-17T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 4.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/90/59822838359f4",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/90/59822838359f4",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/d0/597795bbccc2c",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64291/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13142",
+              "name": "Yusaku Komiyama",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12390",
+              "name": "Jim Zub",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13189",
+              "name": "Kiichi Mizushima",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 7,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64291/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009338",
+              "name": "Hawkeye"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+              "name": "Iron Man"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011002",
+              "name": "Marvel Zombies"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009664",
+              "name": "Thor"
+            }
+          ],
+          "returned": 7
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64291/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/139564",
+              "name": "cover from Zombies Assemble 2 (2017) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/139565",
+              "name": "story from Zombies Assemble 2 (2017) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/64291/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 63963,
+        "digitalId": 0,
+        "title": "Generations: Banner Hulk & The Totally Awesome Hulk (2017) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "BRUCE BANNER. AMADEUS CHO. Both have carried the curse of the Hulk. Now they come face-to-face at last – but will they meet as friends or foes? It's a time-bending tale that will finally answer the question on everyone's minds: WHO IS THE STRONGEST ONE THERE IS?",
+        "modified": "2017-07-28T16:56:18-0400",
+        "isbn": "",
+        "upc": "75960608714300111",
+        "diamondCode": "JUN170852",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 40,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "BRUCE BANNER. AMADEUS CHO. Both have carried the curse of the Hulk. Now they come face-to-face at last – but will they meet as friends or foes? It's a time-bending tale that will finally answer the question on everyone's minds: WHO IS THE STRONGEST ONE THERE IS?"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/63963",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/63963/generations_banner_hulk_the_totally_awesome_hulk_2017_1?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/GENERATIONS-BANNER-HULK-THE-TOTALLY-AWESOME-HULK-1-1/digital-comic/45427?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23281",
+          "name": "Generations: Banner Hulk & The Totally Awesome Hulk (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-08-02T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-07-10T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 4.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/60/596cf0a0b4872",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/60/596cf0a0b4872",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/63963/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11798",
+              "name": "Matteo Buffagni",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8825",
+              "name": "Jorge Molina",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/536",
+              "name": "Greg Pak",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4600",
+              "name": "Mark Paniccia",
+              "role": "editor"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/63963/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011227",
+              "name": "Amadeus Cho"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 2
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/63963/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/138891",
+              "name": "cover from Generations: The Strongest (2017) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/138892",
+              "name": "story from Generations: The Strongest (2017) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/63963/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 63378,
+        "digitalId": 0,
+        "title": "Marvel's Thor: Ragnarok Prelude (2017) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "THE INCREDIBLE HULK'S MARVEL CINEMATIC UNIVERSE DEBUT! BRUCE BANNER has been trying to put the past behind him as he learns to control the powerful beast inside him. But as GENERAL ROSS continues to hunt the fugitive Banner, it's only a matter of time before the HULK will smash! Join us for part one of our lead-up to 2017's cinematic event Marvel's Thor: Ragnarok with this brand-new comic adaptation of the smash hit The Incredible Hulk!",
+        "modified": "2017-06-30T16:52:23-0400",
+        "isbn": "",
+        "upc": "75960608676400111",
+        "diamondCode": "MAY170825",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "THE INCREDIBLE HULK'S MARVEL CINEMATIC UNIVERSE DEBUT! BRUCE BANNER has been trying to put the past behind him as he learns to control the powerful beast inside him. But as GENERAL ROSS continues to hunt the fugitive Banner, it's only a matter of time before the HULK will smash! Join us for part one of our lead-up to 2017's cinematic event Marvel's Thor: Ragnarok with this brand-new comic adaptation of the smash hit The Incredible Hulk!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/63378",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/63378/marvels_thor_ragnarok_prelude_2017_1?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Marvel-s-Thor-Ragnarok-Prelude-1/digital-comic/45222?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23160",
+          "name": "Marvel's Thor: Ragnarok Prelude (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-07-05T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-06-12T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/60/595539e78128b",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/60/595539e78128b",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/63378/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12313",
+              "name": "Mark Basso",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8706",
+              "name": "Jay David Ramos",
+              "role": "colorist"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/63378/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009407",
+              "name": "Loki"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009664",
+              "name": "Thor"
+            }
+          ],
+          "returned": 3
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/63378/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/137610",
+              "name": "cover from Marvel's Thor: Ragnarok Prelude (2017) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/137611",
+              "name": "story from Marvel's Thor: Ragnarok Prelude (2017) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/63378/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 62856,
+        "digitalId": 0,
+        "title": "Spider-Man by Todd Dezago & Mike Wieringo Vol. 1 (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "A sensational saga starring several Spider- Men! Ben Reilly (remember him?) has taken up the webs, but he's about to be taken down by... the Looter?! And if he can get out of that one, he'll face the sting of Swarm! But when Ben's world is rocked by revelations, he'll make way for the one, true Spider-Man: Peter Parker! Peter takes on a Daily Bugle assignment in the Savage Land, where you might expect him to bump into Ka-Zar...but what's the Hulk doing there? With the real Prowler out of action, someone muscles in on his act - and gets caught between Spidey and the Vulture! The Trapster and Living Pharaoh return, Doctor Strange lends a mystical hand, and we flash back to the days of a studious young boy, his Uncle Ben...and the Marvel Monsters! Collecting Sensational Spider-Man (1996) #7-24, -1.",
+        "modified": "2017-05-19T14:44:21-0400",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 0,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "A sensational saga starring several Spider- Men! Ben Reilly (remember him?) has taken up the webs, but he's about to be taken down by... the Looter?! And if he can get out of that one, he'll face the sting of Swarm! But when Ben's world is rocked by revelations, he'll make way for the one, true Spider-Man: Peter Parker! Peter takes on a Daily Bugle assignment in the Savage Land, where you might expect him to bump into Ka-Zar...but what's the Hulk doing there? With the real Prowler out of action, someone muscles in on his act - and gets caught between Spidey and the Vulture! The Trapster and Living Pharaoh return, Doctor Strange lends a mystical hand, and we flash back to the days of a studious young boy, his Uncle Ben...and the Marvel Monsters! Collecting Sensational Spider-Man (1996) #7-24, -1."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/62856",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/62856/spider-man_by_todd_dezago_mike_wieringo_vol_1_trade_paperback?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23054",
+          "name": "Spider-Man by Todd Dezago & Mike Wieringo Vol. 1 (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-05-24T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-05-03T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/70/591f465992266",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/70/591f465992266",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/62856/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/682",
+              "name": "Todd Dezago",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/206",
+              "name": "Mike Wieringo",
+              "role": "penciller (cover)"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 8,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/62856/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009282",
+              "name": "Doctor Strange"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011081",
+              "name": "Ka-Zar"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009507",
+              "name": "Prowler"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1014858",
+              "name": "Spider-Man (Ben Reilly)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011075",
+              "name": "Swarm"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009699",
+              "name": "Vulture (Adrian Toomes)"
+            }
+          ],
+          "returned": 8
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/62856/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/139456",
+              "name": "cover to Spider-Man by Todd Dezago & Mike Wieringo Vol. 1 (2017)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/139457",
+              "name": "interior to Spider-Man by Todd Dezago & Mike Wieringo Vol. 1 (2017)",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/62856/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 59508,
+        "digitalId": 0,
+        "title": "Civil War II Fallout (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "CIVIL WAR II's main player takes center stage, and its seismic effects are felt across the Marvel Universe! First, in a sensational prequel to the main event, experience the odyssey of Ulysses! What incredible journey leads him to join the Inhumans? And in the wake of a truly terrifying vision, why won't Karnak help him prevent disaster? Then, feel the full implications of the hostilities in a trio of tales. When a heroic icon is slain, those who knew him best remember the fallen legend — and the Avenger who killed him stands accused of his murder! But when the war is over, rivals Tony Stark and Carol Danvers turn to the one man they know they can trust — Steve Rogers, Captain America! Uh-oh…Collects Civil War II: Ulysses Infinite Comic #1-6, The Fallen #1, The Accused #1, The Oath #1.",
+        "modified": "2017-03-18T01:13:08-0400",
+        "isbn": "978-1-302-90239-1",
+        "upc": "",
+        "diamondCode": "NOV160961",
+        "ean": "9781302 902391 52499",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 192,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "CIVIL WAR II's main player takes center stage, and its seismic effects are felt across the Marvel Universe! First, in a sensational prequel to the main event, experience the odyssey of Ulysses! What incredible journey leads him to join the Inhumans? And in the wake of a truly terrifying vision, why won't Karnak help him prevent disaster? Then, feel the full implications of the hostilities in a trio of tales. When a heroic icon is slain, those who knew him best remember the fallen legend — and the Avenger who killed him stands accused of his murder! But when the war is over, rivals Tony Stark and Carol Danvers turn to the one man they know they can trust — Steve Rogers, Captain America! Uh-oh…Collects Civil War II: Ulysses Infinite Comic #1-6, The Fallen #1, The Accused #1, The Oath #1."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/59508",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/59508/civil_war_ii_fallout_trade_paperback?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/21674",
+          "name": "Civil War II Fallout (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-03-22T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-01-30T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 24.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/c0/58cc3b49a3099",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/c0/58cc3b49a3099",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 10,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/59508/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1045",
+              "name": "Ramon Bachs",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/87",
+              "name": "Mark Bagley",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12422",
+              "name": "Garry Brown",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8728",
+              "name": "Jefte Palo",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9364",
+              "name": "Rod Reis",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11309",
+              "name": "Mike Del Mundo",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/644",
+              "name": "Marc Guggenheim",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/536",
+              "name": "Greg Pak",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11434",
+              "name": "Nick Spencer",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 10
+        },
+        "characters": {
+          "available": 7,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/59508/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010338",
+              "name": "Captain Marvel (Carol Danvers)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009365",
+              "name": "Inhumans"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+              "name": "Iron Man"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009385",
+              "name": "Karnak"
+            }
+          ],
+          "returned": 7
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/59508/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/129517",
+              "name": "cover from Civil War: TBD (2017)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/129518",
+              "name": "story from Civil War: TBD (2017)",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/59508/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 61771,
+        "digitalId": 0,
+        "title": "Wolverine Vs. The Marvel Universe (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "Wolverine takes on all comers in a collection of his classic brawls with Marvel's finest! Sparks fly as Adamantium claws strike Captain America's shield! Wolverine and Daredevil battle over Bushwhacker! Spider-Man's world is forever changed in an espionage thriller! Wolverine renews rivalries with a gray Hulk; has a nightmarish showdown with Venom; and tackles Avengers, New Warriors and more — but his mighty melee with Thor will be legendary! And in an incredible tale, Logan faces the entire Marvel Universe when a deadly plague transforms everyone — human and superhuman — into savage, cannibal predators. Who will make a stand against the endless slaughter? One word: SNIKT! Collects Captain America Annual #8, Daredevil (1964) #249, Spider-Man vs. Wolverine #1, Incredible Hulk (1968) #340, Wolverine (1988) 134, Wolverine vs. Thor #1-3, Marvel Universe vs. Wolverine #1-4 and material from Marvel Comics Presents (1988) #117-122.",
+        "modified": "2017-03-10T12:32:04-0500",
+        "isbn": "978-1-302-90465-4",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "9781302 904654 53499",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 344,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "Wolverine takes on all comers in a collection of his classic brawls with Marvel's finest! Sparks fly as Adamantium claws strike Captain America's shield! Wolverine and Daredevil battle over Bushwhacker! Spider-Man's world is forever changed in an espionage thriller! Wolverine renews rivalries with a gray Hulk; has a nightmarish showdown with Venom; and tackles Avengers, New Warriors and more — but his mighty melee with Thor will be legendary! And in an incredible tale, Logan faces the entire Marvel Universe when a deadly plague transforms everyone — human and superhuman — into savage, cannibal predators. Who will make a stand against the endless slaughter? One word: SNIKT! Collects Captain America Annual #8, Daredevil (1964) #249, Spider-Man vs. Wolverine #1, Incredible Hulk (1968) #340, Wolverine (1988) 134, Wolverine vs. Thor #1-3, Marvel Universe vs. Wolverine #1-4 and material from Marvel Comics Presents (1988) #117-122."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/61771",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/61771/wolverine_vs_the_marvel_universe_trade_paperback?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/22659",
+          "name": "Wolverine Vs. The Marvel Universe (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-03-15T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-02-28T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 34.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/40/58c2e20f5b7a5",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/40/58c2e20f5b7a5",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 17,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/61771/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/211",
+              "name": "Mark Bright",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/645",
+              "name": "Laurence Campbell",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4150",
+              "name": "Paco Diaz",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/343",
+              "name": "Sam Kieth",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1252",
+              "name": "Rick Leonardi",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2321",
+              "name": "Jeff Matsuda",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/75",
+              "name": "Todd McFarlane",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/3447",
+              "name": "Michael Zeck",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/121",
+              "name": "Peter David",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/259",
+              "name": "Mark Gruenwald",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/704",
+              "name": "Erik Larsen",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/10200",
+              "name": "Jonathan Maberry",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1286",
+              "name": "Howard Mackie",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/215",
+              "name": "Ann Nocenti",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2630",
+              "name": "James Owsley",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/91",
+              "name": "Frank Tieri",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 17
+        },
+        "characters": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/61771/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+              "name": "Daredevil"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009664",
+              "name": "Thor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+              "name": "Wolverine"
+            }
+          ],
+          "returned": 6
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/61771/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/133958",
+              "name": "cover from Wolverine Vs. the Marvel Universe (2017)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/133959",
+              "name": "story from Wolverine Vs. the Marvel Universe (2017)",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/61771/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 59634,
+        "digitalId": 42796,
+        "title": "Marvel Universe Avengers: Ultron Revolution (2016) #4",
+        "issueNumber": 4,
+        "variantDescription": "",
+        "description": "BRUCE BANNER…UNHULKED?! After a nuclear accident, Bruce Banner is stripped of his angry alter ego — the Incredible Hulk! Can THE AVENGERS figure out how to bring the big green monster back? And if they can, will they want to?",
+        "modified": "2016-09-28T15:30:19-0400",
+        "isbn": "",
+        "upc": "759606085331000411",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "BRUCE BANNER…UNHULKED?! After a nuclear accident, Bruce Banner is stripped of his angry alter ego — the Incredible Hulk! Can THE AVENGERS figure out how to bring the big green monster back? And if they can, will they want to?"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/59634",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/59634/marvel_universe_avengers_ultron_revolution_2016_4?utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=42796&utm_campaign=apiRef&utm_source=2d800ff86ae6a0fadb6ce2f10cd509b3"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/21698",
+          "name": "Marvel Universe Avengers: Ultron Revolution (2016 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2016-10-05T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2016-09-20T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2017-04-10T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 2.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/c0/57e5925d05f24",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/c0/57e5925d05f24",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/59634/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+              "name": "Joe Caramagna",
+              "role": "writer"
+            }
+          ],
+          "returned": 1
+        },
+        "characters": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/59634/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 2
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/59634/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/129767",
+              "name": "cover from Marvel Universe Avengers: Ultron Revolution (2016) #4",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/129768",
+              "name": "story from Marvel Universe Avengers: Ultron Revolution (2016) #4",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/59634/events",
+          "items": [],
+          "returned": 0
+        }
+      }
+    ]
+  }
+}

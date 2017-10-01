@@ -5,6 +5,9 @@ import time
 
 import requests
 import logging
+import redis
+
+r = redis.StrictRedis(host='localhost', port=6379, db=0)
 
 log = logging.getLogger('marvel')
 base_endpoint = 'https://gateway.marvel.com'
@@ -14,14 +17,18 @@ private_key = os.environ.get('MARVEL_PRIVATE_KEY')
 
 class MarvelRequest(object):
     def characters(self, page=1):
-        r = self.get('/v1/public/characters', page)
-        return json.loads(r.text)['data']['results']
+        status, result = self.get('/v1/public/characters', page)
+        return json.loads(result)['data']['results']
 
     def stories_by_character(self, identifier, page=1):
-        r = self.get('/v1/public/characters/{identifier}/stories'.format(identifier=identifier), page)
-        return json.loads(r.text)['data']['results']
+        status, result = self.get('/v1/public/characters/{identifier}/stories'.format(identifier=identifier), page)
+        return json.loads(result)['data']['results']
 
-    def get(self, endpoint, page, page_size=100):
+    def comics_by_character(self, identifier, page=1):
+        status, result = self.get('/v1/public/characters/{identifier}/comics'.format(identifier=identifier), page)
+        return json.loads(result)['data']['results']
+
+    def get(self, endpoint, page=1, page_size=100):
         print("Requesting content - endpoint: {endpoint}, page: {page}, page_size: {page_size}".format(
             endpoint=endpoint, page=page, page_size=page_size))
         ts = str(int(time.time()))
@@ -34,5 +41,24 @@ class MarvelRequest(object):
             'limit': page_size
         }
         url = '%s%s' % (base_endpoint, endpoint)
-        r = requests.get(url, params)
-        return r
+        headers = {
+            'If-None-Match': r.get('MARVEL:ETAG:{KEY}:ETAG'.format(KEY=self.get_key(endpoint, params['offset'], params['limit'])))
+        }
+        result = requests.get(url, params, headers=headers)
+        if result.status_code == 200:
+            self.store_on_cache(endpoint, params['offset'], params['limit'], result)
+        elif result.status_code == 304:
+            return result.status_code, r.get('MARVEL:ETAG:{KEY}:JSON'.format(KEY=self.get_key(endpoint, params['offset'], params['limit'])))
+        return result.status_code, result.text
+
+    def store_on_cache(self, endpoint, offset, limit, request):
+        key = self.get_key(endpoint, offset, limit)
+        r.append('MARVEL:ETAG:{KEY}:ETAG'.format(KEY=key), request.json()['etag'])
+        r.append('MARVEL:ETAG:{KEY}:JSON'.format(KEY=key), request.text)
+
+    def retrieve_from_cache(self, endpoint, offset, limit):
+        key = self.get_key(endpoint, offset, limit)
+        return r.get('MARVEL:ETAG:{KEY}:JSON'.format(KEY=key))
+
+    def get_key(self, endpoint, offset, limit):
+        return "{endpoint}?offset={offset}&limit={limit}".format(endpoint=endpoint, offset=offset, limit=limit)
