@@ -19,15 +19,16 @@
 
 <div class="container">
 
-    <div class="row">
+    <div class="row" style="height: 200px; background-color: #269abc">
         <div class="col-md-1"></div>
         <div class="col-md-10" style="background-color: red">
-            <div class="col-md-10 text-right">
-                <h1>{{ character_name }}</h1>
-            </div>
-            <div class="col-md-2">
-                <img src="{{character_image}}" class="img-thumbnail img-circle">
-
+            <div class="row">
+                <div class="col-md-2" style="background-color: #419641">
+                    <img src="{{character_image}}" class="img-thumbnail img-circle">
+                </div>
+                <div class="col-md-10 text-right" style="background-color: #999999">
+                    <h1>{{ character_name }}</h1>
+                </div>
             </div>
         </div>
         <div class="col-md-1"></div>
@@ -39,39 +40,26 @@
         <div class="col-md-1"></div>
         <div class="col-md-10" style="background-color:#245580">
             <div class="row">
+                <div class="col-md-8" style="background-color: #985f0d">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>{{ comic_title }}</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div>{{ comic_description |safe }}</div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-4 text-center" style="background-color: #67b168">
                     <img src="{{ comic_image }}" class="img-thumbnail">
                 </div>
-                <div class="col-md-8" style="background-color: #985f0d">
-                <div class="col-md-12">
-                    <h3>{{ comic_title }}</h3>
-                </div>
-                <div class="col-md-12">
-                    <div>{{ comic_description }}</div>
-                </div>
-            </div>
             </div>
         </div>
         <div class="col-md-1"></div>
     </div>
 </div>
-
-        <!--<div class="row" style="background-color: #1b6d85">-->
-            <!--<div class="col-xs-3" style="background-color: #2aabd2">-->
-
-                <!--<div></div>-->
-            <!--</div>-->
-
-            <!--<div class="col-xs-9" style="background-color: #3c763d">-->
-
-                <!--<div style="background-color: #66afe9">-->
-                    <!--<h3>{{ comic_title }}</h3>-->
-                    <!--<img src="{{ comic_image }}">-->
-                    <!--<div>{{ comic_description }}</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-
 
 <script src="static/jquery/3.2.1/jquery-3.2.1.min.js"></script>
 <script src="static/bootstrap/3.3.7/js/bootstrap.min.js"></script>
