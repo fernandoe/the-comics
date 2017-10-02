@@ -1,0 +1,1637 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2017 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2017 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2017 MARVEL</a>",
+  "etag": "1a9179091846a5db9cc0812aa822b849bd8c32de",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 1994,
+    "count": 20,
+    "results": [
+      {
+        "id": 703,
+        "title": "Interior #703",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/703",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/703/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/312",
+              "name": "Mike Deodato",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/52",
+              "name": "Bruce Jones",
+              "role": "writer"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/703/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/703/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/308",
+              "name": "Incredible Hulk Vol. 6: Split Decisions (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/703/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/318",
+              "name": "Incredible Hulk (1999) #62"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1252",
+              "name": "Incredible Hulk Vol. 6: Split Decisions (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/703/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/318",
+          "name": "Incredible Hulk (1999) #62"
+        }
+      },
+      {
+        "id": 705,
+        "title": "Interior #705",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/705",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/705/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/312",
+              "name": "Mike Deodato",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/52",
+              "name": "Bruce Jones",
+              "role": "writer"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/705/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/705/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/308",
+              "name": "Incredible Hulk Vol. 6: Split Decisions (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/705/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/339",
+              "name": "Incredible Hulk (1999) #63"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1252",
+              "name": "Incredible Hulk Vol. 6: Split Decisions (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/705/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/339",
+          "name": "Incredible Hulk (1999) #63"
+        }
+      },
+      {
+        "id": 707,
+        "title": "Interior #707",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/707",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/707/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/312",
+              "name": "Mike Deodato",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/52",
+              "name": "Bruce Jones",
+              "role": "writer"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/707/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/707/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/308",
+              "name": "Incredible Hulk Vol. 6: Split Decisions (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/707/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/364",
+              "name": "Incredible Hulk (1999) #64"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1252",
+              "name": "Incredible Hulk Vol. 6: Split Decisions (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/707/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/364",
+          "name": "Incredible Hulk (1999) #64"
+        }
+      },
+      {
+        "id": 873,
+        "title": "Interior #873",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/873",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/873/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/18",
+              "name": "Jeph Loeb",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/19",
+              "name": "Tim Sale",
+              "role": "penciller"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/873/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/873/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/704",
+              "name": "Hulk: Gray (2003 - 2004)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1200",
+              "name": "Hulk: Gray (2005)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/873/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2043",
+              "name": "Hulk: Gray (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/287",
+              "name": "Hulk: Gray (2003) #2"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/873/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/287",
+          "name": "Hulk: Gray (2003) #2"
+        }
+      },
+      {
+        "id": 875,
+        "title": "Interior #875",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/875",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/875/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/18",
+              "name": "Jeph Loeb",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/19",
+              "name": "Tim Sale",
+              "role": "penciller"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/875/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/875/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/704",
+              "name": "Hulk: Gray (2003 - 2004)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1200",
+              "name": "Hulk: Gray (2005)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/875/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2043",
+              "name": "Hulk: Gray (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/340",
+              "name": "Hulk: Gray (2003) #3"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/875/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/340",
+          "name": "Hulk: Gray (2003) #3"
+        }
+      },
+      {
+        "id": 1134,
+        "title": "Interior #1134",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1134",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1134/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/516",
+              "name": "Troy Hickman",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/517",
+              "name": "Dave Simons",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/518",
+              "name": "Al Vey",
+              "role": "inker"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1134/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 2
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1134/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/458",
+              "name": "Actor Presents Spider-Man and the Incredible Hulk (2003)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1134/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/320",
+              "name": "Actor Presents Spider-Man and the Incredible Hulk (2003) #1"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1134/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/320",
+          "name": "Actor Presents Spider-Man and the Incredible Hulk (2003) #1"
+        }
+      },
+      {
+        "id": 1218,
+        "title": "Interior #1218",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1218",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1218/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/128",
+              "name": "Doug Braithwaite",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/52",
+              "name": "Bruce Jones",
+              "role": "writer"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1218/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1218/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1218",
+              "name": "Incredible Hulk Vol. 7: Dead Like Me (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1218/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/405",
+              "name": "Incredible Hulk (1999) #68"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1298",
+              "name": "Incredible Hulk Vol. 7: Dead Like Me (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1218/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/405",
+          "name": "Incredible Hulk (1999) #68"
+        }
+      },
+      {
+        "id": 1220,
+        "title": "Interior #1220",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1220",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1220/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/128",
+              "name": "Doug Braithwaite",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/52",
+              "name": "Bruce Jones",
+              "role": "writer"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1220/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1220/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1218",
+              "name": "Incredible Hulk Vol. 7: Dead Like Me (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1220/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/431",
+              "name": "Incredible Hulk (1999) #69"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1298",
+              "name": "Incredible Hulk Vol. 7: Dead Like Me (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1220/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/431",
+          "name": "Incredible Hulk (1999) #69"
+        }
+      },
+      {
+        "id": 1222,
+        "title": "Interior #1222",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1222",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1222/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/312",
+              "name": "Mike Deodato",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/52",
+              "name": "Bruce Jones",
+              "role": "writer"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1222/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1222/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1300",
+              "name": "Incredible Hulk Vol. 8: Big Things (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1222/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/468",
+              "name": "Incredible Hulk (1999) #70"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1361",
+              "name": "Incredible Hulk Vol. 8: Big Things (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1222/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/468",
+          "name": "Incredible Hulk (1999) #70"
+        }
+      },
+      {
+        "id": 1224,
+        "title": "Interior #1224",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1224",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1224/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/312",
+              "name": "Mike Deodato",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/52",
+              "name": "Bruce Jones",
+              "role": "writer"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1224/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1224/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1300",
+              "name": "Incredible Hulk Vol. 8: Big Things (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1224/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/496",
+              "name": "Incredible Hulk (1999) #71"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1361",
+              "name": "Incredible Hulk Vol. 8: Big Things (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1224/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/496",
+          "name": "Incredible Hulk (1999) #71"
+        }
+      },
+      {
+        "id": 1226,
+        "title": "Interior #1226",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1226",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1226/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/52",
+              "name": "Bruce Jones",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/527",
+              "name": "Tom Palmer",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/49",
+              "name": "Darick Robertson",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/670",
+              "name": "Raul Trevino",
+              "role": "colorist"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1226/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1226/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1300",
+              "name": "Incredible Hulk Vol. 8: Big Things (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1226/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/560",
+              "name": "Incredible Hulk (1999) #75"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1361",
+              "name": "Incredible Hulk Vol. 8: Big Things (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1226/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/560",
+          "name": "Incredible Hulk (1999) #75"
+        }
+      },
+      {
+        "id": 1228,
+        "title": "Interior #1228",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1228",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1228/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/520",
+              "name": "Rainier Beredo",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/128",
+              "name": "Doug Braithwaite",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/52",
+              "name": "Bruce Jones",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/523",
+              "name": "Bill Reinhold",
+              "role": "inker"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1228/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1228/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1300",
+              "name": "Incredible Hulk Vol. 8: Big Things (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1228/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/591",
+              "name": "Incredible Hulk (1999) #74"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1361",
+              "name": "Incredible Hulk Vol. 8: Big Things (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1228/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/591",
+          "name": "Incredible Hulk (1999) #74"
+        }
+      },
+      {
+        "id": 1230,
+        "title": "Interior #1230",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1230",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1230/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/520",
+              "name": "Rainier Beredo",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/312",
+              "name": "Mike Deodato",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/52",
+              "name": "Bruce Jones",
+              "role": "writer"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1230/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1230/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1300",
+              "name": "Incredible Hulk Vol. 8: Big Things (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1230/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/632",
+              "name": "Incredible Hulk (1999) #72"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1361",
+              "name": "Incredible Hulk Vol. 8: Big Things (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1230/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/632",
+          "name": "Incredible Hulk (1999) #72"
+        }
+      },
+      {
+        "id": 1232,
+        "title": "Interior #1232",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1232",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1232/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/520",
+              "name": "Rainier Beredo",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/128",
+              "name": "Doug Braithwaite",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/52",
+              "name": "Bruce Jones",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/523",
+              "name": "Bill Reinhold",
+              "role": "inker"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1232/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1232/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1300",
+              "name": "Incredible Hulk Vol. 8: Big Things (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1232/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/697",
+              "name": "Incredible Hulk (1999) #73"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1361",
+              "name": "Incredible Hulk Vol. 8: Big Things (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1232/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/697",
+          "name": "Incredible Hulk (1999) #73"
+        }
+      },
+      {
+        "id": 1233,
+        "title": "Interior #1233",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1233",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1233/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/128",
+              "name": "Doug Braithwaite",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/52",
+              "name": "Bruce Jones",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/523",
+              "name": "Bill Reinhold",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/670",
+              "name": "Raul Trevino",
+              "role": "colorist"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1233/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1233/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1300",
+              "name": "Incredible Hulk Vol. 8: Big Things (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1233/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/770",
+              "name": "Incredible Hulk (1999) #76"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1361",
+              "name": "Incredible Hulk Vol. 8: Big Things (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1233/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/770",
+          "name": "Incredible Hulk (1999) #76"
+        }
+      },
+      {
+        "id": 1234,
+        "title": "1 of 6 - Tempus Fugit",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1234",
+        "type": "cover",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1234/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8991",
+              "name": "Lee Weeks",
+              "role": "penciller (cover)"
+            }
+          ],
+          "returned": 1
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1234/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1234/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1310",
+              "name": "Hulk: Tempest Fugit (2005)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1234/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2294",
+              "name": "Hulk: Tempest Fugit (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1555",
+              "name": "Incredible Hulk (1999) #77"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1234/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/1555",
+          "name": "Incredible Hulk (1999) #77"
+        }
+      },
+      {
+        "id": 1235,
+        "title": "1 of 6 - Tempus Fugit",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1235",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1235/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/121",
+              "name": "Peter David",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/430",
+              "name": "Edgar Delgado",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8635",
+              "name": "Randy Gentile",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/527",
+              "name": "Tom Palmer",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8991",
+              "name": "Lee Weeks",
+              "role": "penciller"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1235/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1235/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1310",
+              "name": "Hulk: Tempest Fugit (2005)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1235/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2294",
+              "name": "Hulk: Tempest Fugit (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1555",
+              "name": "Incredible Hulk (1999) #77"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1235/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/1555",
+          "name": "Incredible Hulk (1999) #77"
+        }
+      },
+      {
+        "id": 1236,
+        "title": "2 of 6 - Tempus Fugit",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1236",
+        "type": "cover",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1236/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8991",
+              "name": "Lee Weeks",
+              "role": "penciller (cover)"
+            }
+          ],
+          "returned": 1
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1236/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1236/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1310",
+              "name": "Hulk: Tempest Fugit (2005)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1236/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2294",
+              "name": "Hulk: Tempest Fugit (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1642",
+              "name": "Incredible Hulk (1999) #78"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1236/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/1642",
+          "name": "Incredible Hulk (1999) #78"
+        }
+      },
+      {
+        "id": 1237,
+        "title": "2 of 6 - Tempus Fugit",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1237",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1237/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/121",
+              "name": "Peter David",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/430",
+              "name": "Edgar Delgado",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8635",
+              "name": "Randy Gentile",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/527",
+              "name": "Tom Palmer",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8991",
+              "name": "Lee Weeks",
+              "role": "penciller"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1237/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1237/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1310",
+              "name": "Hulk: Tempest Fugit (2005)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1237/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2294",
+              "name": "Hulk: Tempest Fugit (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1642",
+              "name": "Incredible Hulk (1999) #78"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1237/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/1642",
+          "name": "Incredible Hulk (1999) #78"
+        }
+      },
+      {
+        "id": 1239,
+        "title": "3 of 5 - Tempest Fugit",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1239",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1239/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/121",
+              "name": "Peter David",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/430",
+              "name": "Edgar Delgado",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8635",
+              "name": "Randy Gentile",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/527",
+              "name": "Tom Palmer",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8991",
+              "name": "Lee Weeks",
+              "role": "penciller"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1239/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1239/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1310",
+              "name": "Hulk: Tempest Fugit (2005)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/465",
+              "name": "Incredible Hulk (1999 - 2008)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1239/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2294",
+              "name": "Hulk: Tempest Fugit (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1737",
+              "name": "Incredible Hulk (1999) #79"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1239/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/1737",
+          "name": "Incredible Hulk (1999) #79"
+        }
+      }
+    ]
+  }
+}
