@@ -7,7 +7,7 @@ import requests
 import logging
 import redis
 
-r = redis.StrictRedis(host='localhost', port=6379, db=0)
+r = redis.StrictRedis(host='localhost', port=6379, db=0, charset="utf-8", decode_responses=True)
 
 log = logging.getLogger('marvel')
 base_endpoint = 'https://gateway.marvel.com'
@@ -24,6 +24,10 @@ class MarvelRequest(object):
             status, result = self.get('/v1/public/characters', page)
             return json.loads(result)['data']['results']
 
+    def characters_by_comic(self, identifier, page=1):
+        status, result = self.get('/v1/public/characters', page=page, extra_params={'comics': identifier})
+        return json.loads(result)['data']['results']
+
     def stories_by_character(self, identifier, page=1):
         status, result = self.get('/v1/public/characters/{identifier}/stories'.format(identifier=identifier), page)
         return json.loads(result)['data']['results']
@@ -32,7 +36,7 @@ class MarvelRequest(object):
         status, result = self.get('/v1/public/characters/{identifier}/comics'.format(identifier=identifier), page)
         return json.loads(result)['data']['results']
 
-    def get(self, endpoint, page=1, page_size=100):
+    def get(self, endpoint, page=1, page_size=100, extra_params=None):
         print("Requesting content - endpoint: {endpoint}, page: {page}, page_size: {page_size}".format(
             endpoint=endpoint, page=page, page_size=page_size))
         ts = str(int(time.time()))
@@ -44,6 +48,8 @@ class MarvelRequest(object):
             'offset': (page - 1) * page_size,
             'limit': page_size
         }
+        if extra_params:
+            params.update(extra_params)
         url = '%s%s' % (base_endpoint, endpoint)
         headers = {
             'If-None-Match': r.get('MARVEL:ETAG:{KEY}:ETAG'.format(KEY=self.get_key(endpoint, params['offset'], params['limit'])))

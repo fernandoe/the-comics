@@ -3,7 +3,7 @@ import random
 from flask import Flask, render_template
 
 from marvel.api import MarvelAPI
-from marvel.iterables import ComicsByCharacterIterable
+from marvel.iterables import ComicsByCharacterIterable, CharacteresByComic
 from marvel.request import MarvelRequest
 
 app = Flask(__name__)
@@ -40,13 +40,16 @@ def get_random_comic_page():
     comic_description = comic['description']
     comic_image = comic['thumbnail']['path'] + '/portrait_incredible.' + comic['thumbnail']['extension']
 
+    characters = []
+    for c in CharacteresByComic(comic['id']):
+        characters.append(c)
     data = {
         'character_name': character_name,
         'character_image': character_image,
         'comic_title': comic_title,
         'comic_description': comic_description,
         'comic_image': comic_image,
-        'characters': 'characters'
+        'characters': characters
     }
 
     return render_template('index.html', **data)

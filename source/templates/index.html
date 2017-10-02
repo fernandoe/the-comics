@@ -18,26 +18,23 @@
 <body>
 
 <div class="container">
-
-    <div class="row" style="height: 200px; background-color: #269abc">
-        <div class="col-md-1"></div>
-        <div class="col-md-10" style="background-color: red">
+    <div class="row" style="background-color: #269abc">
+        <div class="col-md-12" style="background-color: red">
+            <div class="row" style="height: 100px"></div>
             <div class="row">
                 <div class="col-md-2" style="background-color: #419641">
                     <img src="{{character_image}}" class="img-thumbnail img-circle">
                 </div>
-                <div class="col-md-10 text-right" style="background-color: #999999">
+                <div class="col-md-10" style="background-color: #999999">
                     <h1>{{ character_name }}</h1>
                 </div>
             </div>
         </div>
-        <div class="col-md-1"></div>
     </div>
 
-    <div class="row"></div>
+    <div class="row" style="height: 10px"></div>
 
     <div class="row">
-        <div class="col-md-1"></div>
         <div class="col-md-10" style="background-color:#245580">
             <div class="row">
                 <div class="col-md-8" style="background-color: #985f0d">
@@ -48,7 +45,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <div>{{ comic_description |safe }}</div>
+                            <div>{{ comic_description|safe or "" }}</div>
                         </div>
                     </div>
                 </div>
@@ -57,7 +54,14 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <div>Feature Chars</div>
+            {% for c in characters %}
+            <div>
+                <a href="/{{ c['id'] }}"><img  width="80" src="{{ c['thumbnail']['path'] }}/standard_medium.{{ c['thumbnail']['extension']}}" class="img-circle"></a>
+            </div>
+            {% endfor %}
+        </div>
     </div>
 </div>
 
