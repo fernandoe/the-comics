@@ -12,14 +12,23 @@
 <body>
 
 <div class="container">
-    <div class="row" style="background-color: #269abc">
-        <div class="col-md-12" style="background-color: red">
+
+    <div class="row tc-header">
+        <div class="col-md-12" style="height: 270px; background-color: #0097B4;">
+            <img src="{{character_image}}" class="img-thumbnail" style="margin-top: 155px; z-index: 999999; position: absolute">
+        </div>
+        <div class="col-md-12" style="height: 50px; background-color: white; z-index: 2"></div>
+    </div>
+
+
+    <div class="row tc-header">
+        <div class="col-md-12">
             <div class="row" style="height: 100px"></div>
             <div class="row">
-                <div class="col-md-2" style="background-color: #419641">
-                    <img src="{{character_image}}" class="img-thumbnail img-circle">
+                <div class="col-md-2 text-center" style="border: solid; height: 170px">
+                    <img src="{{character_image}}" class="img-thumbnail">
                 </div>
-                <div class="col-md-10" style="background-color: #999999">
+                <div class="col-md-10" style="border: solid;">
                     <h1>{{ character_name }}</h1>
                 </div>
             </div>
