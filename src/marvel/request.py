@@ -65,8 +65,8 @@ class MarvelRequest(object):
 
     def store_on_cache(self, endpoint, offset, limit, request):
         key = self.get_key(endpoint, offset, limit)
-        r.append('MARVEL:ETAG:{KEY}:ETAG'.format(KEY=key), request.json()['etag'])
-        r.append('MARVEL:ETAG:{KEY}:JSON'.format(KEY=key), request.text)
+        r.set('MARVEL:ETAG:{KEY}:ETAG'.format(KEY=key), request.json()['etag'])
+        r.set('MARVEL:ETAG:{KEY}:JSON'.format(KEY=key), request.text)
 
     def retrieve_from_cache(self, endpoint, offset, limit):
         key = self.get_key(endpoint, offset, limit)
