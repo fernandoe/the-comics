@@ -1,7 +1,9 @@
 import json
 from unittest import TestCase
-from marvel.request import MarvelRequest
+
 import redis
+
+from marvel.request import MarvelRequest
 
 r = redis.StrictRedis(host='localhost', port=6379, db=1)
 
@@ -13,6 +15,10 @@ class TestMarvelRequest(TestCase):
     def test_characters(self):
         response = MarvelRequest().characters()
         assert 100 == len(response)
+
+    def test_characters_hulk(self):
+        response = MarvelRequest().characters(identifier=1009351)
+        assert 'Hulk' == response['name']
 
     def test_get_page_size(self):
         endpoint = '/v1/public/characters'

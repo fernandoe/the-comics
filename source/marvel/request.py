@@ -16,9 +16,13 @@ private_key = os.environ.get('MARVEL_PRIVATE_KEY')
 
 
 class MarvelRequest(object):
-    def characters(self, page=1):
-        status, result = self.get('/v1/public/characters', page)
-        return json.loads(result)['data']['results']
+    def characters(self, identifier=None, page=1):
+        if identifier:
+            status, result = self.get('/v1/public/characters/%s' % identifier, page)
+            return json.loads(result)['data']['results'][0]
+        else:
+            status, result = self.get('/v1/public/characters', page)
+            return json.loads(result)['data']['results']
 
     def stories_by_character(self, identifier, page=1):
         status, result = self.get('/v1/public/characters/{identifier}/stories'.format(identifier=identifier), page)
@@ -48,6 +52,7 @@ class MarvelRequest(object):
         if result.status_code == 200:
             self.store_on_cache(endpoint, params['offset'], params['limit'], result)
         elif result.status_code == 304:
+            print('Returning from cache, 304 status code')
             return result.status_code, r.get('MARVEL:ETAG:{KEY}:JSON'.format(KEY=self.get_key(endpoint, params['offset'], params['limit'])))
         return result.status_code, result.text
 

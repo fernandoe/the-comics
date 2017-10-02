@@ -12,7 +12,7 @@ class CharactersIterable(object):
     def __next__(self):
         if not self.items:
             self.current_page = self.current_page + 1
-            items = MarvelRequest().characters(self.current_page)
+            items = MarvelRequest().characters(page=self.current_page)
             if items:
                 self.items = items
             else:
@@ -56,7 +56,7 @@ class ComicsByCharacterIterable(object):
             raise StopIteration
         if not self.items:
             self.current_page = self.current_page + 1
-            items = MarvelRequest().stories_by_character(self.character_id, self.current_page)
+            items = MarvelRequest().comics_by_character(self.character_id, self.current_page)
             if items:
                 self.items = items
             else:
