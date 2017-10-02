@@ -7,7 +7,7 @@ import time
 import redis
 import requests
 
-r = redis.from_url(os.environ.get("REDIS_URL"))
+r = redis.from_url(os.environ.get("REDIS_URL", 'redis://localhost'))
 log = logging.getLogger('marvel')
 base_endpoint = 'https://gateway.marvel.com'
 public_key = os.environ.get('MARVEL_PUBLIC_KEY')
