@@ -1,14 +1,13 @@
 import hashlib
 import json
+import logging
 import os
 import time
 
-import requests
-import logging
 import redis
+import requests
 
-r = redis.StrictRedis(host='localhost', port=6379, db=0, charset="utf-8", decode_responses=True)
-
+r = redis.from_url(os.environ.get("REDIS_URL"))
 log = logging.getLogger('marvel')
 base_endpoint = 'https://gateway.marvel.com'
 public_key = os.environ.get('MARVEL_PUBLIC_KEY')
@@ -52,14 +51,16 @@ class MarvelRequest(object):
             params.update(extra_params)
         url = '%s%s' % (base_endpoint, endpoint)
         headers = {
-            'If-None-Match': r.get('MARVEL:ETAG:{KEY}:ETAG'.format(KEY=self.get_key(endpoint, params['offset'], params['limit'])))
+            'If-None-Match': r.get(
+                'MARVEL:ETAG:{KEY}:ETAG'.format(KEY=self.get_key(endpoint, params['offset'], params['limit'])))
         }
         result = requests.get(url, params, headers=headers)
         if result.status_code == 200:
             self.store_on_cache(endpoint, params['offset'], params['limit'], result)
         elif result.status_code == 304:
             print('Returning from cache, 304 status code')
-            return result.status_code, r.get('MARVEL:ETAG:{KEY}:JSON'.format(KEY=self.get_key(endpoint, params['offset'], params['limit'])))
+            return result.status_code, r.get(
+                'MARVEL:ETAG:{KEY}:JSON'.format(KEY=self.get_key(endpoint, params['offset'], params['limit'])))
         return result.status_code, result.text
 
     def store_on_cache(self, endpoint, offset, limit, request):
