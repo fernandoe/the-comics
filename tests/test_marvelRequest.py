@@ -1,13 +1,15 @@
 import json
 from unittest import TestCase
+from unittest.mock import patch
 
-import redis
+import fakeredis
 
 from marvel.request import MarvelRequest
 
-r = redis.StrictRedis(host='localhost', port=6379, db=1)
+r = fakeredis.FakeStrictRedis()
 
 
+@patch('marvel.request.r', r)
 class TestMarvelRequest(TestCase):
     def setUp(self):
         r.flushall()

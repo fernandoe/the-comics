@@ -9,7 +9,7 @@ import logging
 log = logging.getLogger('marvel')
 base_endpoint = 'https://gateway.marvel.com'
 public_key = os.environ.get('MARVEL_PUBLIC_KEY')
-private_key = os.environ.get('MARVEL_PRIVATE_KEY')
+private_pytestkey = os.environ.get('MARVEL_PRIVATE_KEY')
 
 
 #
