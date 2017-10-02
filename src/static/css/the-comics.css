@@ -1,11 +1,40 @@
 body {
-    background-color: #E7EBF0;
+    background-color: #dedede;
 }
 
-.tc-header {
-    border: 1px solid #1d2129;
+.tc-border {
+    border: 1px solid #999999;
+}
+
+.tc-header-background {
+    background-color: #007691;
+    height: 270px;
+}
+
+.tc-header-name {
+    color: white;
+    margin-left: 170px;
+    margin-top: 210px;
 }
 
 .tc-hr {
     height: 10px;
+}
+
+.tc-comic-title-label {
+    padding: 5px;
+}
+
+.tc-comic-description {
+    padding: 20px;
+}
+
+.tc-comic-title-title h3 {
+    margin: 5px;
+}
+
+.tc-comic-image-container {
+    background-color: #67b168; /* REMOVE IT */
+    height: 380px;
+    padding-top: 20px;
 }

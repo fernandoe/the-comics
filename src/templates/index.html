@@ -13,46 +13,37 @@
 
 <div class="container">
 
-    <div class="row tc-header">
-        <div class="col-md-12" style="height: 270px; background-color: #0097B4;">
+    <div class="row tc-border">
+        <div class="col-md-12 tc-header-background">
             <img src="{{character_image}}" class="img-thumbnail" style="margin-top: 155px; z-index: 999999; position: absolute">
+            <h1 class="tc-header-name">{{ character_name }}</h1>
         </div>
         <div class="col-md-12" style="height: 50px; background-color: white; z-index: 2"></div>
     </div>
 
-
-    <div class="row tc-header">
-        <div class="col-md-12">
-            <div class="row" style="height: 100px"></div>
-            <div class="row">
-                <div class="col-md-2 text-center" style="border: solid; height: 170px">
-                    <img src="{{character_image}}" class="img-thumbnail">
-                </div>
-                <div class="col-md-10" style="border: solid;">
-                    <h1>{{ character_name }}</h1>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="row tc-hr"></div>
 
-    <div class="row">
+    <div class="row tc-border">
         <div class="col-md-12" style="background-color:#245580">
             <div class="row">
-                <div class="col-md-8" style="background-color: #985f0d">
+                <div class="col-md-9" style="background-color: #985f0d">
                     <div class="row">
                         <div class="col-md-12">
+                            <div class="tc-comic-title-label">Comic Story:</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center tc-comic-title-title">
                             <h3>{{ comic_title }}</h3>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 tc-comic-description">
                             <div>{{ comic_description|safe or "" }}</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-center" style="background-color: #67b168">
+                <div class="col-md-3 text-center tc-comic-image-container">
                     <img src="{{ comic_image }}" class="img-thumbnail">
                 </div>
             </div>
