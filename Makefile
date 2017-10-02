@@ -1,5 +1,5 @@
 runserver:
-	python ./source/app.py
+	python ./src/app.py
 
 test:
 	 pytest --cov

@@ -1,30 +1,12 @@
 from marvel.request import MarvelRequest
 
 
-class CharactersIterable(object):
-    def __init__(self):
+class BaseIterable(object):
+    def __init__(self, **kwargs):
         self.current_page = 0
         self.items = []
-
-    def __iter__(self):
-        return self
-
-    def __next__(self):
-        if not self.items:
-            self.current_page = self.current_page + 1
-            items = MarvelRequest().characters(page=self.current_page)
-            if items:
-                self.items = items
-            else:
-                raise StopIteration
-        return self.items.pop(0)
-
-
-class StoriesByCharacterIterable(object):
-    def __init__(self, character_id):
-        self.character_id = character_id
-        self.current_page = 0
-        self.items = []
+        for key, value in kwargs.items():
+            setattr(self, key, value)
 
     def __iter__(self):
         return self
@@ -34,7 +16,7 @@ class StoriesByCharacterIterable(object):
             raise StopIteration
         if not self.items:
             self.current_page = self.current_page + 1
-            items = MarvelRequest().stories_by_character(self.character_id, self.current_page)
+            items = self.get_items()
             if items:
                 self.items = items
             else:
@@ -42,45 +24,21 @@ class StoriesByCharacterIterable(object):
         return self.items.pop(0)
 
 
-class ComicsByCharacterIterable(object):
-    def __init__(self, character_id):
-        self.character_id = character_id
-        self.current_page = 0
-        self.items = []
-
-    def __iter__(self):
-        return self
-
-    def __next__(self):
-        if self.current_page == 2:
-            raise StopIteration
-        if not self.items:
-            self.current_page = self.current_page + 1
-            items = MarvelRequest().comics_by_character(self.character_id, self.current_page)
-            if items:
-                self.items = items
-            else:
-                raise StopIteration
-        return self.items.pop(0)
+class CharactersIterable(BaseIterable):
+    def get_items(self):
+        return MarvelRequest().characters(page=self.current_page)
 
 
-class CharacteresByComic(object):
-    def __init__(self, comic_id):
-        self.comic_id = comic_id
-        self.current_page = 0
-        self.items = []
+class StoriesByCharacterIterable(BaseIterable):
+    def get_items(self):
+        return MarvelRequest().stories_by_character(self.identifier, self.current_page)
 
-    def __iter__(self):
-        return self
 
-    def __next__(self):
-        if self.current_page == 2:
-            raise StopIteration
-        if not self.items:
-            self.current_page = self.current_page + 1
-            items = MarvelRequest().characters_by_comic(self.comic_id)
-            if items:
-                self.items = items
-            else:
-                raise StopIteration
-        return self.items.pop(0)
+class ComicsByCharacterIterable(BaseIterable):
+    def get_items(self):
+        return MarvelRequest().comics_by_character(self.identifier, self.current_page)
+
+
+class CharacteresByComicIterable(BaseIterable):
+    def get_items(self):
+        return MarvelRequest().characters_by_comic(self.identifier)
