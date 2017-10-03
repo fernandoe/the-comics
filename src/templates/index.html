@@ -23,17 +23,12 @@
 
     <div class="row tc-hr"></div>
 
-    <div class="row tc-border">
-        <div class="col-md-12" style="background-color:#245580">
+    <div class="row tc-border tc-comic">
+        <div class="col-md-12">
             <div class="row">
-                <div class="col-md-9" style="background-color: #985f0d">
+                <div class="col-md-9">
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="tc-comic-title-label">Comic Story:</div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 text-center tc-comic-title-title">
+                        <div class="col-md-12 text-center tc-comic-title">
                             <h3>{{ comic_title }}</h3>
                         </div>
                     </div>
@@ -52,21 +47,29 @@
 
     <div class="row tc-hr"></div>
 
-    <div class="row"><h3>Feature Chars</h3></div>
-
-    <div class="row" style="background-color: #b2dba1">
-        {% for c in characters %}
-        <div class="col-md-3" style="border: solid ">
-            <div class="text-center">{{ c['name'] }}</div>
-            <div class="text-center">
-                <a href="/{{ c['id'] }}"><img
-                        src="{{ c['thumbnail']['path'] }}/standard_medium.{{ c['thumbnail']['extension']}}"
-                        class="img-circle"></a>
+    <div class="row tc-border tc-characters">
+        <div class="col-md-12">
+            <h3>Characters</h3>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                {% for c in characters %}
+                <div class="col-md-3">
+                    <div class="tc-characters-box">
+                        <div class="text-center">{{ c['name'] }}</div>
+                        <div class="text-center">
+                            <a href="/{{ c['id'] }}"><img src="{{ c['thumbnail']['path'] }}/standard_medium.{{ c['thumbnail']['extension']}}" class="img-circle"></a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
         </div>
-        {% endfor %}
     </div>
 
+    <div class="row tc-hr"></div>
+
+    <div class="row tc-hr"></div>
 </div>
 
 <script src="static/jquery/3.2.1/jquery-3.2.1.min.js"></script>

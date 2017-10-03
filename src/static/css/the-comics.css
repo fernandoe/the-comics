@@ -21,20 +21,31 @@ body {
     height: 10px;
 }
 
-.tc-comic-title-label {
-    padding: 5px;
+.tc-comic {
+    background-color: white;
 }
 
 .tc-comic-description {
-    padding: 20px;
+    padding: 40px;
 }
 
-.tc-comic-title-title h3 {
-    margin: 5px;
+.tc-comic-title h3 {
+    margin-top: 20px;
 }
 
 .tc-comic-image-container {
-    background-color: #67b168; /* REMOVE IT */
+    /*background-color: #67b168; !* REMOVE IT *!*/
     height: 380px;
     padding-top: 20px;
+    border-left: 1px solid #999999;
+}
+
+.tc-characters {
+    background-color: white;
+}
+
+.tc-characters-box {
+    border: 1px solid #999999;
+    padding: 5px;
+    margin-bottom: 10px;
 }
