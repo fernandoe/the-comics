@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Comics</title>
 
-    <link href="static/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/third-party/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/css/the-comics.css" rel="stylesheet">
 </head>
 <body>
@@ -15,7 +15,8 @@
 
     <div class="row tc-border">
         <div class="col-md-12 tc-header-background">
-            <img src="{{character_image}}" class="img-thumbnail" style="margin-top: 155px; z-index: 999999; position: absolute">
+            <img src="{{character_image}}" class="img-thumbnail"
+                 style="margin-top: 155px; z-index: 999999; position: absolute">
             <h1 class="tc-header-name">{{ character_name }}</h1>
         </div>
         <div class="col-md-12" style="height: 50px; background-color: white; z-index: 2"></div>
@@ -55,10 +56,15 @@
             <div class="row">
                 {% for c in characters %}
                 <div class="col-md-3">
-                    <div class="tc-characters-box">
-                        <div class="text-center">{{ c['name'] }}</div>
-                        <div class="text-center">
-                            <a href="?identifier={{ c['id'] }}"><img src="{{ c['thumbnail']['path'] }}/standard_medium.{{ c['thumbnail']['extension']}}" class="img-circle"></a>
+                    <div id="effect-5" class="tc-characters-box">
+                        <div class="img text-center">
+                            <div class="tc-characters-name text-center">{{ c['name'] }}</div>
+                            <img src="{{ c['thumbnail']['path'] }}/standard_medium.{{ c['thumbnail']['extension']}}"
+                                 class="img-circle img-thumbnail">
+                            <div class="overlay">
+                                <a href="?identifier={{ c['id'] }}" class="expand">Go</a>
+                                <a class="close-overlay hidden">Go</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -72,8 +78,10 @@
     <div class="row tc-hr"></div>
 </div>
 
-<script src="static/jquery/3.2.1/jquery-3.2.1.min.js"></script>
-<script src="static/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="static/third-party/jquery/3.2.1/jquery-3.2.1.min.js"></script>
+<script src="static/third-party/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="static/third-party/modernizr/modernizr.js"></script>
+<script src="static/js/the-comics.js"></script>
 
 </body>
 </html>
