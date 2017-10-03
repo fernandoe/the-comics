@@ -44,6 +44,10 @@ body {
     background-color: white;
 }
 
+.tc-characters  h3 {
+    margin-bottom: 20px;
+}
+
 .tc-characters-box {
     border: 1px solid #999999;
     padding: 5px;
