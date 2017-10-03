@@ -1,0 +1,51 @@
+body {
+    background-color: #dedede;
+}
+
+.tc-border {
+    border: 1px solid #999999;
+}
+
+.tc-header-background {
+    background-color: #007691;
+    height: 270px;
+}
+
+.tc-header-name {
+    color: white;
+    margin-left: 170px;
+    margin-top: 210px;
+}
+
+.tc-hr {
+    height: 10px;
+}
+
+.tc-comic {
+    background-color: white;
+}
+
+.tc-comic-description {
+    padding: 40px;
+}
+
+.tc-comic-title h3 {
+    margin-top: 20px;
+}
+
+.tc-comic-image-container {
+    /*background-color: #67b168; !* REMOVE IT *!*/
+    height: 380px;
+    padding-top: 20px;
+    border-left: 1px solid #999999;
+}
+
+.tc-characters {
+    background-color: white;
+}
+
+.tc-characters-box {
+    border: 1px solid #999999;
+    padding: 5px;
+    margin-bottom: 10px;
+}
