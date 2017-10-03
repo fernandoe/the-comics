@@ -36,7 +36,7 @@ class MarvelRequest(object):
         return json.loads(result)['data']['results']
 
     def get(self, endpoint, page=1, page_size=100, extra_params=None):
-        print("Requesting content - endpoint: {endpoint}, page: {page}, page_size: {page_size}".format(
+        log.info("Requesting content - endpoint: {endpoint}, page: {page}, page_size: {page_size}".format(
             endpoint=endpoint, page=page, page_size=page_size))
         ts = str(int(time.time()))
         api_hash = hashlib.md5((ts + private_key + public_key).encode('utf-8')).hexdigest()
@@ -58,7 +58,7 @@ class MarvelRequest(object):
         if result.status_code == 200:
             self.store_on_cache(endpoint, params['offset'], params['limit'], result)
         elif result.status_code == 304:
-            print('Returning from cache, 304 status code')
+            log.info('Returning from cache, 304 status code')
             return result.status_code, r.get(
                 'MARVEL:ETAG:{KEY}:JSON'.format(KEY=self.get_key(endpoint, params['offset'], params['limit'])))
         return result.status_code, result.text
