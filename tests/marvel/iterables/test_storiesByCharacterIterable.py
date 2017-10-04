@@ -12,4 +12,4 @@ class TestStoriesByCharacterIterable(TestCase):
         count = 0
         for _ in StoriesByCharacterIterable(identifier=1009351):
             count = count + 1
-        assert count == 101
+        assert count == 401
