@@ -9,7 +9,7 @@
 This is a web service write in Python in order to play with the Marvel API (https://developer.marvel.com) and integrate
 third party services that helps on building software.
 
-![Homepage](https://raw.githubusercontent.com/fernandoe/the-comics/docs/sandbox/docs/images/index-page.png)
+![Homepage](https://raw.githubusercontent.com/fernandoe/the-comics/master/sandbox/docs/images/index-page.png)
 
 
 
@@ -60,7 +60,7 @@ third party services that helps on building software.
 
 
 
-## Installing and Running locally
+## Installing and Running
 
 
 ### Redis
