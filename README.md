@@ -117,8 +117,8 @@ $ python src/app.py
 $ git clone https://github.com/fernandoe/the-comics
 $ cd the-comics
 $ heroku create
-$ heroku config:set MARVEL_PRIVATE_KEY=0cff2826aeac229dad0a7b92262e4bc8f30d9623
-$ heroku config:set MARVEL_PUBLIC_KEY=2d800ff86ae6a0fadb6ce2f10cd509b3
+$ heroku config:set MARVEL_PRIVATE_KEY=[your private key]
+$ heroku config:set MARVEL_PUBLIC_KEY=[your public key]
 $ heroku config:set PYTHONPATH=src
 $ heroku config:set TC_ENABLE_CACHE=True
 $ heroku addons:create papertrail
