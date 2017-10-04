@@ -48,6 +48,7 @@ def get_random_comic_page():
     character = MarvelRequest().characters(identifier=identifier)
     character_name = character['name']
     character_image = character['thumbnail']['path'] + '/standard_large.' + character['thumbnail']['extension']
+    log.info('CharacterName={CharacterName}'.format(CharacterName=character_name))
 
     comics = []
     for s in ComicsByCharacterIterable(identifier=identifier):

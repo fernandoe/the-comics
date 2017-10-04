@@ -3,5 +3,6 @@
 coverage==4.4.1
 coveralls==1.2.0
 fakeredis==0.8.2
+mock==2.0.0
 pytest-cov==2.5.1
 pytest==3.2.2

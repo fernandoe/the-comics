@@ -7,6 +7,8 @@ import time
 import redis
 import requests
 
+from marvel.decorator import cached
+
 r = redis.from_url(os.environ.get("REDIS_URL", 'redis://localhost'))
 log = logging.getLogger('marvel')
 base_endpoint = 'https://gateway.marvel.com'
@@ -15,6 +17,8 @@ private_key = os.environ.get('MARVEL_PRIVATE_KEY')
 
 
 class MarvelRequest(object):
+
+    @cached
     def characters(self, identifier=None, page=1):
         if identifier:
             status, result = self.get('/v1/public/characters/%s' % identifier, page)
@@ -31,6 +35,7 @@ class MarvelRequest(object):
         status, result = self.get('/v1/public/characters/{identifier}/stories'.format(identifier=identifier), page)
         return json.loads(result)['data']['results']
 
+    @cached
     def comics_by_character(self, identifier, page=1):
         status, result = self.get('/v1/public/characters/{identifier}/comics'.format(identifier=identifier), page)
         return json.loads(result)['data']['results']
