@@ -12,7 +12,7 @@ class BaseIterable(object):
         return self
 
     def __next__(self):
-        if self.current_page == 2:
+        if self.current_page == 5:
             raise StopIteration
         if not self.items:
             self.current_page = self.current_page + 1
@@ -41,4 +41,4 @@ class ComicsByCharacterIterable(BaseIterable):
 
 class CharacteresByComicIterable(BaseIterable):
     def get_items(self):
-        return MarvelRequest().characters_by_comic(self.identifier)
+        return MarvelRequest().characters_by_comic(self.identifier, self.current_page)

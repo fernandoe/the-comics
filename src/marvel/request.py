@@ -27,6 +27,7 @@ class MarvelRequest(object):
             status, result = self.get('/v1/public/characters', page)
             return json.loads(result)['data']['results']
 
+    @cached
     def characters_by_comic(self, identifier, page=1):
         status, result = self.get('/v1/public/characters', page=page, extra_params={'comics': identifier})
         return json.loads(result)['data']['results']
@@ -41,8 +42,8 @@ class MarvelRequest(object):
         return json.loads(result)['data']['results']
 
     def get(self, endpoint, page=1, page_size=100, extra_params=None):
-        log.info("Requesting content - endpoint: {endpoint}, page: {page}, page_size: {page_size}".format(
-            endpoint=endpoint, page=page, page_size=page_size))
+        log.info("Get endpoint={endpoint}, page={page}, page_size={page_size}, extra_params={extra_params}"
+                 .format(endpoint=endpoint, page=page, page_size=page_size, extra_params=extra_params))
         ts = str(int(time.time()))
         api_hash = hashlib.md5((ts + private_key + public_key).encode('utf-8')).hexdigest()
         params = {
@@ -55,27 +56,28 @@ class MarvelRequest(object):
         if extra_params:
             params.update(extra_params)
         url = '%s%s' % (base_endpoint, endpoint)
+        key = self.build_key(endpoint, params)
         headers = {
-            'If-None-Match': r.get(
-                'MARVEL:ETAG:{KEY}:ETAG'.format(KEY=self.get_key(endpoint, params['offset'], params['limit'])))
+            'If-None-Match': r.get('TC:MARVEL:ETAG:{KEY}:ETAG'.format(KEY=key))
         }
         result = requests.get(url, params, headers=headers)
         if result.status_code == 200:
-            self.store_on_cache(endpoint, params['offset'], params['limit'], result)
+            self.store_on_cache(key, result)
         elif result.status_code == 304:
             log.info('Returning from cache, 304 status code')
-            return result.status_code, r.get(
-                'MARVEL:ETAG:{KEY}:JSON'.format(KEY=self.get_key(endpoint, params['offset'], params['limit'])))
+            return result.status_code, r.get('TC:MARVEL:ETAG:{KEY}:JSON'.format(KEY=key))
         return result.status_code, result.text
 
-    def store_on_cache(self, endpoint, offset, limit, request):
-        key = self.get_key(endpoint, offset, limit)
-        r.set('MARVEL:ETAG:{KEY}:ETAG'.format(KEY=key), request.json()['etag'])
-        r.set('MARVEL:ETAG:{KEY}:JSON'.format(KEY=key), request.text)
+    def store_on_cache(self, key, request):
+        r.set('TC:MARVEL:ETAG:{KEY}:ETAG'.format(KEY=key), request.json()['etag'])
+        r.set('TC:MARVEL:ETAG:{KEY}:JSON'.format(KEY=key), request.text)
 
-    def retrieve_from_cache(self, endpoint, offset, limit):
-        key = self.get_key(endpoint, offset, limit)
-        return r.get('MARVEL:ETAG:{KEY}:JSON'.format(KEY=key))
-
-    def get_key(self, endpoint, offset, limit):
-        return "{endpoint}?offset={offset}&limit={limit}".format(endpoint=endpoint, offset=offset, limit=limit)
+    def build_key(self, endpoint, params={}):
+        params_copy = params.copy()
+        del params_copy['ts']
+        del params_copy['apikey']
+        del params_copy['hash']
+        result = endpoint
+        for key in sorted(params_copy):
+            result = '%s:%s:%s' % (result, key, params_copy[key])
+        return result
