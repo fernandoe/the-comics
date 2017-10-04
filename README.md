@@ -91,7 +91,7 @@ docker run --name marvel-redis \
 
 
 
-### Steps
+### Steps to Install and Running Locally
 
 ```shell
 $ git clone https://github.com/fernandoe/the-comics
@@ -110,7 +110,7 @@ $ python src/app.py
 
 
 
-## Installing and Running on Heroku
+## Steps to Install and Running on Heroku
 
 
 ```shell
