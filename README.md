@@ -51,45 +51,36 @@ third party services that helps on building software.
 | Variable | Description | Default Value
 | --- | --- | :---:
 | `MARVEL_PUBLIC_KEY` | Your Marvel public key | 
-| `MARVEL_PRIVATE_KEY` | You marvel private key | 
+| `MARVEL_PRIVATE_KEY` | You Marvel private key | 
 | `REDIS_URL` | Redis connection string | redis://localhost 
 | `TC_ENABLE_CACHE` | Enables the application cache | False
 
 
 
 
-## Quick Start
-
-```
-$ pip install pipenv 
-$ pipenv --python=python3
-$ pipenv install
-
-``` 
-
-### Usage
 
 
-# Deployment
+## Installing and Running locally
 
-## Heroku
-
-Add information in how to deploy to heroku
-
-
-
-
-# Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-
-
-
-
-## Docker
 
 ### Redis
+
+
+You will need Redis installed and running in order to play with the application. You can install it using:
+
+
+
+
+#### Install locally
+
+ 
+* Instructinos: https://redis.io/download
+
+
+
+
+#### Using Docker
+
 
 ```shell
 docker run --name marvel-redis \
@@ -97,3 +88,48 @@ docker run --name marvel-redis \
    -v ~/workspace/docker-volumes/marvel-redis:/data \
    -d redis:3.2.6
 ```
+
+
+
+### Steps
+
+```shell
+$ git clone https://github.com/fernandoe/the-comics
+$ cd the-comics
+$ virtualenv .venv --python=python3
+$ source .venv/bin/activate
+$ pip install -r requirements/development.txt
+$ export FLASK_DEBUG=1 
+$ export MARVEL_PRIVATE_KEY=[your private key]
+$ export MARVEL_PUBLIC_KEY=[your public key] 
+$ export PYTHONPATH=src
+$ export TC_ENABLE_CACHE=True
+$ python src/app.py
+``` 
+
+
+
+
+## Installing and Running on Heroku
+
+
+```shell
+$ git clone https://github.com/fernandoe/the-comics
+$ cd the-comics
+$ heroku create
+$ heroku config:set MARVEL_PRIVATE_KEY=0cff2826aeac229dad0a7b92262e4bc8f30d9623
+$ heroku config:set MARVEL_PUBLIC_KEY=2d800ff86ae6a0fadb6ce2f10cd509b3
+$ heroku config:set PYTHONPATH=src
+$ heroku config:set TC_ENABLE_CACHE=True
+$ heroku addons:create papertrail
+$ heroku addons:create heroku-redis:hobby-dev
+$ git push heroku master
+$ heroku open
+``` 
+
+
+
+
+# Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.

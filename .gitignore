@@ -1,5 +1,6 @@
 .cache
 .coverage
 .idea
+.venv
 __pycache__
 src/db.sqlite3
