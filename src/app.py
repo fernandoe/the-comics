@@ -76,4 +76,4 @@ def get_random_comic_page():
 
 
 if __name__ == '__main__':
-    app.run(port=5001)
+    app.run()
