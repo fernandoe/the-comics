@@ -59,6 +59,14 @@ body {
     margin-bottom: 8px;
 }
 
+.tc-footer {
+  background-color: white;
+}
+
+.tc-footer-label {
+  border: 20px;
+}
+
 /* ============================================================
   CHARACTER EFFECT
 ============================================================ */

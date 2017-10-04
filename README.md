@@ -6,8 +6,14 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://raw.githubusercontent.com/fernandoe/the-comics/master/LICENSE)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/fernandoe)
 
-This is a web service write in Python in order to play with the Marvel API (https://developer.marvel.com) and integrate
+
+This is a web service write in Python in order to play with the Marvel API (https://developer.marvel.com) and integrate 
 third party services that helps on building software.
+
+The web service starts picking the Hulk as an initial character and choice a random story that he participates. Bellow 
+the story choiced, the service shows all characters that are in the story. You can select another one clicking in the 
+character picture.
+
 
 ![Homepage](https://raw.githubusercontent.com/fernandoe/the-comics/master/sandbox/docs/images/index-page.png)
 
