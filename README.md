@@ -60,6 +60,7 @@ character picture.
 | `MARVEL_PRIVATE_KEY` | You Marvel private key | 
 | `REDIS_URL` | Redis connection string | redis://localhost 
 | `TC_ENABLE_CACHE` | Enables the application cache | False
+| `TC_LIMIT_PAGES` | Limits the number of pages returned in searches | 
 
 
 
@@ -110,6 +111,7 @@ $ export MARVEL_PRIVATE_KEY=[your private key]
 $ export MARVEL_PUBLIC_KEY=[your public key] 
 $ export PYTHONPATH=src
 $ export TC_ENABLE_CACHE=True
+$ export TC_LIMIT_PAGES=3
 $ python src/app.py
 ``` 
 
@@ -127,6 +129,7 @@ $ heroku config:set MARVEL_PRIVATE_KEY=[your private key]
 $ heroku config:set MARVEL_PUBLIC_KEY=[your public key]
 $ heroku config:set PYTHONPATH=src
 $ heroku config:set TC_ENABLE_CACHE=True
+$ heroku config:set TC_LIMIT_PAGES=3
 $ heroku addons:create papertrail
 $ heroku addons:create heroku-redis:hobby-dev
 $ git push heroku master
