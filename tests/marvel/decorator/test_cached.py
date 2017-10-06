@@ -22,13 +22,13 @@ class Foo(object):
 
 @patch('marvel.decorator.r', r)
 class TestCached(TestCase):
-    @mock.patch.dict(os.environ, {"TC_ENABLE_CACHE": "True"})
+    @mock.patch.dict(os.environ, {"TC_ENABLE_CACHE_L2": "True"})
     def test_method1(self):
         result = Foo().method1(54321)
         assert 'Method1-54321' == result
         assert '"Method1-54321"' == r.get('TC:CACHE:Foo.method1:54321').decode('utf-8')
 
-    @mock.patch.dict(os.environ, {"TC_ENABLE_CACHE": "True"})
+    @mock.patch.dict(os.environ, {"TC_ENABLE_CACHE_L2": "True"})
     def test_method2(self):
         result = Foo().method2(54321, param2=1)
         assert 'Method2-54321-1' == result

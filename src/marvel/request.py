@@ -17,6 +17,8 @@ private_key = os.environ.get('MARVEL_PRIVATE_KEY')
 
 
 class MarvelRequest(object):
+    def __init__(self):
+        self.cache_l1 = os.environ.get("TC_ENABLE_CACHE_L1", False) == 'True'
 
     @cached
     def characters(self, identifier=None, page=1):
@@ -57,15 +59,18 @@ class MarvelRequest(object):
             params.update(extra_params)
         url = '%s%s' % (base_endpoint, endpoint)
         key = self.build_key(endpoint, params)
-        headers = {
-            'If-None-Match': r.get('TC:MARVEL:ETAG:{KEY}:ETAG'.format(KEY=key))
-        }
+
+        headers = {}
+        if self.cache_l1:
+            headers['If-None-Match'] = r.get('TC:MARVEL:ETAG:{KEY}:ETAG'.format(KEY=key))
+
         result = requests.get(url, params, headers=headers)
-        if result.status_code == 200:
-            self.store_on_cache(key, result)
-        elif result.status_code == 304:
-            log.info('Returning from cache, 304 status code')
-            return result.status_code, r.get('TC:MARVEL:ETAG:{KEY}:JSON'.format(KEY=key))
+        if self.cache_l1:
+            if result.status_code == 200:
+                self.store_on_cache(key, result)
+            elif result.status_code == 304:
+                log.info('[CACHE L1] [STATUS_CODE=304] Retrieve from cache (etag). [KEY=%s]' % key)
+                return result.status_code, r.get('TC:MARVEL:ETAG:{KEY}:JSON'.format(KEY=key))
         return result.status_code, result.text
 
     def store_on_cache(self, key, request):
