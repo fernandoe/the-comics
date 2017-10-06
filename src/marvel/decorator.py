@@ -10,7 +10,7 @@ r = redis.from_url(os.environ.get("REDIS_URL", 'redis://localhost'))
 
 def cached(method):
     def decorated(*args, **kwargs):
-        if not os.environ.get("TC_ENABLE_CACHE", False):
+        if not os.environ.get("TC_ENABLE_CACHE_L2", False):
             return method(*args, **kwargs)
         key = build_key(method, args, kwargs)
         response = r.get(key)
@@ -18,7 +18,7 @@ def cached(method):
             response = method(*args, **kwargs)
             r.set(key, json.dumps(response))
         else:
-            log.debug('[CACHE] Retrieve from cache. Key=%s' % key)
+            log.debug('[CACHE L2] Retrieve from cache. Key=%s' % key)
             response = json.loads(response)
         return response
 
