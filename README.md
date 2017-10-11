@@ -34,6 +34,7 @@ character picture.
 * [Coveralls](https://coveralls.io/github/fernandoe/the-comics?branch=master): Track your code coverage over time
 * [Papertrail](https://dashboard.heroku.com/apps/the-comics/resources): Log management (when app is deployed)
 * [Heroku Redis](https://dashboard.heroku.com/apps/the-comics/resources): NoSQL database (when app is deployed)
+* [NewRelic](https://newrelic.com) Lets developers, ops, and tech teams measure and monitor the performance of their applications and infrastructure.
 
 
 
@@ -135,6 +136,8 @@ $ heroku config:set TC_ENABLE_CACHE_L2=True
 $ heroku config:set TC_LIMIT_PAGES=3
 $ heroku addons:create papertrail
 $ heroku addons:create heroku-redis:hobby-dev
+$ heroku addons:create newrelic:wayne  # Install NewRelic
+$ heroku config:set NEW_RELIC_APP_NAME='The Comics'  # NewRelic configuration
 $ git push heroku master
 $ heroku open
 ``` 
