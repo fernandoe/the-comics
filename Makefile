@@ -3,3 +3,6 @@ runserver:
 
 test:
 	 pytest --cov
+
+install:
+	 pip install -r requirements.txt

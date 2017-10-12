@@ -9,6 +9,9 @@ import requests
 
 from marvel.decorator import cached
 
+
+CACHE_TTL = 60 * 60 * 24  # 1 day (in seconds)
+
 r = redis.from_url(os.environ.get("REDIS_URL", 'redis://localhost'))
 log = logging.getLogger('marvel')
 base_endpoint = 'https://gateway.marvel.com'
@@ -74,8 +77,8 @@ class MarvelRequest(object):
         return result.status_code, result.text
 
     def store_on_cache(self, key, request):
-        r.set('TC:MARVEL:ETAG:{KEY}:ETAG'.format(KEY=key), request.json()['etag'])
-        r.set('TC:MARVEL:ETAG:{KEY}:JSON'.format(KEY=key), request.text)
+        r.set('TC:MARVEL:ETAG:{KEY}:ETAG'.format(KEY=key), request.json()['etag'], CACHE_TTL)
+        r.set('TC:MARVEL:ETAG:{KEY}:JSON'.format(KEY=key), request.text, CACHE_TTL)
 
     def build_key(self, endpoint, params={}):
         params_copy = params.copy()
