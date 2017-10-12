@@ -1,0 +1,20 @@
+title The Comics - Cache Level 1 (etag)
+
+User->App: Request
+App->MarvelRequest: Params
+alt With etag
+    MarvelRequest->Redis: get_etag(key)
+    Redis->MarvelRequest: etag
+    MarvelRequest->MarvelAPI: Params and etag
+    MarvelAPI->MarvelRequest: Status Code: 304\nEmpty Body
+    MarvelRequest->Redis: get_response(key)
+    Redis->MarvelRequest: JSON Response
+else Without etag
+    MarvelRequest->Redis: get_etag(key)
+    Redis->MarvelRequest: None
+    MarvelRequest->MarvelAPI: Params and etag
+    MarvelAPI->MarvelRequest: Status Code: 200\nJSON Response
+    MarvelRequest->Redis: Saves JSON Response\n and etag
+end
+MarvelRequest->App: JSON Response
+App->User: HTML Response

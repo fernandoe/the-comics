@@ -39,6 +39,14 @@ character picture.
 
 
 
+# Application Services Map
+
+
+![Services Map](https://raw.githubusercontent.com/fernandoe/the-comics/master/sandbox/docs/images/services-map.png)
+
+
+
+
 # Installation
 
 
