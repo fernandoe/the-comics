@@ -4,6 +4,8 @@ import os
 
 import redis
 
+CACHE_TTL = 60 * 60 * 24  # 1 day (in seconds)
+
 log = logging.getLogger('marvel')
 r = redis.from_url(os.environ.get("REDIS_URL", 'redis://localhost'))
 
@@ -16,7 +18,7 @@ def cached(method):
         response = r.get(key)
         if response is None:
             response = method(*args, **kwargs)
-            r.set(key, json.dumps(response))
+            r.set(key, json.dumps(response), CACHE_TTL)
         else:
             log.debug('[CACHE L2] Retrieve from cache. Key=%s' % key)
             response = json.loads(response)
