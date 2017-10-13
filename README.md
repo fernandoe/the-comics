@@ -39,10 +39,29 @@ character picture.
 
 
 
-# Application Services Map
+# Some Implementation Highlights
+
+
+## Application Services Map
 
 
 ![Services Map](https://raw.githubusercontent.com/fernandoe/the-comics/master/sandbox/docs/images/services-map.png)
+
+
+
+
+## Cache Level 1 - etag
+
+
+![Cache Level 1](https://raw.githubusercontent.com/fernandoe/the-comics/master/sandbox/docs/images/cache-level-1.png)
+
+
+
+
+## Cache Level 2 - Application
+
+
+![Cache Level 2](https://raw.githubusercontent.com/fernandoe/the-comics/master/sandbox/docs/images/cache-level-2.png)
 
 
 
